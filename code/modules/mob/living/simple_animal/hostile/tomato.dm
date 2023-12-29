@@ -1,0 +1,21 @@
+/mob/living/simple_animal/hostile/tomato
+	name = "tomato"
+	desc = "It's a horrifyingly enormous beef tomato, and it's packing extra beef!"
+	icon = 'icons/mob/mobs-monster.dmi'
+	icon_state = "tomato"
+	icon_living = "tomato"
+	speak_chance = 0
+	turns_per_move = 5
+	maxHealth = 15
+	health = 15
+	meat_type = /obj/item/reagent_containers/food/snacks/tomatomeat
+	response_help  = "prods"
+	response_disarm = "pushes aside"
+	response_harm   = "smacks"
+	harm_intent_damage = 5
+	melee_damage_upper = 15
+	melee_damage_lower = 10
+	attacktext = "mauled"
+	leather_amount = 0
+	bones_amount = 0
+	sanity_damage = 1
