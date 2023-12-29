@@ -1,15 +1,3 @@
-///////////
-//PREFACE//
-///////////
-
-//lighting definition proc - day/night
-
-/proc/Set_Area_Dynamic_Lighting(dynamic_lighting)
-    check_daynight()  // Call check_daynight to determine if it's nighttime
-    if (nighttime)
-        dynamic_lighting = TRUE
-    else
-        dynamic_lighting = FALSE
 
 ////////////
 //Nadezhda//
@@ -269,16 +257,13 @@
 
 //Outside natural areas
 
-/area/nadezhda/outside/New()
-	Set_Area_Dynamic_Lighting()
-	..()
-
 /area/nadezhda/outside
-    area_light_color = COLOR_LIGHTING_DEFAULT_BRIGHT
-    ambience = list('sound/ambience/ambigen9.ogg', 'sound/ambience/ambigen10.ogg', 'sound/ambience/ambigen11.ogg', 'sound/ambience/ambigen12.ogg')
-    flags = null
-    is_dungeon_lootable = TRUE
-    ship_area = FALSE
+	area_light_color = COLOR_LIGHTING_DEFAULT_BRIGHT
+	ambience = list('sound/ambience/ambigen9.ogg', 'sound/ambience/ambigen10.ogg', 'sound/ambience/ambigen11.ogg', 'sound/ambience/ambigen12.ogg')
+	dynamic_lighting = FALSE
+	flags = null
+	is_dungeon_lootable = TRUE
+	ship_area = FALSE
 
 /area/nadezhda/outside/one_star
 	name = "Greyson Positronic Base"
