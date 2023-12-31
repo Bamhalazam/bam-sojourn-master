@@ -1,15 +1,3 @@
-///////////
-//PREFACE//
-///////////
-
-//lighting definition proc - day/night
-
-/area/nadezhda/proc/Set_Area_Dynamic_Lighting(dynamic_lighting)
-    check_daynight()  // Call check_daynight to determine if it's nighttime
-    if (nighttime)
-        dynamic_lighting = TRUE
-    else
-        dynamic_lighting = FALSE
 
 ////////////
 //Nadezhda//
@@ -56,6 +44,7 @@
 	flags = AREA_FLAG_RAD_SHIELDED
 
 //Maintenance
+
 
 /area/nadezhda/maintenance
 	is_maintenance = TRUE
@@ -269,16 +258,45 @@
 
 //Outside natural areas
 
-/area/nadezhda/outside/New()
-	Set_Area_Dynamic_Lighting()
-	..()
+var/night = FALSE
+var/shift_start_time = 0
+var/hour = 14
+// taking the hour and minute from time.dm
 
-/area/nadezhda/outside
-    area_light_color = COLOR_LIGHTING_DEFAULT_BRIGHT
-    ambience = list('sound/ambience/ambigen9.ogg', 'sound/ambience/ambigen10.ogg', 'sound/ambience/ambigen11.ogg', 'sound/ambience/ambigen12.ogg')
-    flags = null
-    is_dungeon_lootable = TRUE
-    ship_area = FALSE
+/area/nadezhda/proc/Determine_Time_Of_Day() // global proc that sets night to true or false
+    if(hour <= 7 || hour >= 20)
+        night = TRUE
+    return night
+
+/area/nadezhda/outside/proc/Enable_Area_Dynamic_Lighting() //works most likely
+	Determine_Time_Of_Day()
+	if(night == TRUE)
+		dynamic_lighting = TRUE
+	else
+		dynamic_lighting = FALSE
+	return dynamic_lighting
+
+/area/nadezhda/outside/New() //also seems to work
+	Enable_Area_Dynamic_Lighting()
+	.=..()
+
+/*
+proc/Determine_Time_Of_Day() // global proc that sets night to true or false
+	get_round_start_time()
+	if(round_start_time <= "07:00" || round_start_time >= "20:00")
+		night = TRUE
+	else
+		night = FALSE
+	return night
+*/
+
+
+/area/nadezhda/outside // YES THIS ONE RIGHT HERE IS MAKING ME MAD!!!
+	area_light_color = COLOR_LIGHTING_DEFAULT_BRIGHT
+	ambience = list('sound/ambience/ambigen9.ogg', 'sound/ambience/ambigen10.ogg', 'sound/ambience/ambigen11.ogg', 'sound/ambience/ambigen12.ogg')
+	flags = null
+	is_dungeon_lootable = TRUE
+	ship_area = FALSE
 
 /area/nadezhda/outside/one_star
 	name = "Greyson Positronic Base"
@@ -1271,6 +1289,13 @@ area/nadezhda/medical/medbaymeeting
 
 //Security
 
+/area/nadezhda/security/proc/Enable_Area_Dynamic_Lighting()
+	if(night)
+		dynamic_lighting = TRUE
+	else
+		dynamic_lighting = FALSE
+	return dynamic_lighting
+
 /area/nadezhda/security
 	name = "Security"
 	icon_state = "security"
@@ -1347,10 +1372,13 @@ area/nadezhda/medical/medbaymeeting
 	name = "\improper Security Checkpoint"
 	icon_state = "checkpoint1"
 
+/area/nadezhda/security/maingate/New() //required for the day/night code to work
+	Enable_Area_Dynamic_Lighting()
+	.=..()
+
 /area/nadezhda/security/maingate
 	name = "\improper Security - Main Gate"
 	icon_state = "security"
-	dynamic_lighting = FALSE
 	forced_ambience = list('sound/ambience/meadowamb1.ogg', 'sound/ambience/meadowamb2.ogg', 'sound/ambience/meadowamb3.ogg', 'sound/ambience/meadowamb4.ogg')
 
 /area/nadezhda/security/checkpoint/supply
@@ -1702,7 +1730,6 @@ area/nadezhda/medical/medbaymeeting
 	icon_state = "erisgreen"
 
 //Storage
-
 
 /area/nadezhda/storage/primary
 	name = "Primary Tool Storage"
