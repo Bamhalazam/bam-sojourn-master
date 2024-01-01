@@ -1,3 +1,16 @@
+ADMIN_VERB_ADD(/client/proc/change_hour, R_DEBUG, FALSE)
+/client/proc/change_hour(hour)
+	set category = "Debug"
+	set name = "Change Global Hour"
+	set desc = "Opens a window to modify the global variable 'hour'"
+
+	var/new_hour = input("Enter the new hour (1-23):")
+	if (!isnum(new_hour) || new_hour < 1 || new_hour > 23)
+		return
+
+	hour = new_hour
+	alert("Global hour has been set to [new_hour].",,, "OK")
+
 ADMIN_VERB_ADD(/client/proc/Debug2, R_DEBUG, FALSE)
 /client/proc/Debug2()
 	set category = "Debug"

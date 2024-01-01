@@ -260,10 +260,10 @@
 
 var/night = FALSE
 var/shift_start_time = 0
-var/hour = 14
+var/hour = 0
 // taking the hour and minute from time.dm
 
-/area/nadezhda/proc/Determine_Time_Of_Day() // global proc that sets night to true or false
+/proc/Determine_Time_Of_Day() // global proc that sets night to true or false
     if(hour <= 7 || hour >= 20)
         night = TRUE
     return night
@@ -277,6 +277,7 @@ var/hour = 14
 	return dynamic_lighting
 
 /area/nadezhda/outside/New() //also seems to work
+	area_light_color = COLOR_LIGHTING_ORANGE_BRIGHT
 	Enable_Area_Dynamic_Lighting()
 	.=..()
 
@@ -1380,6 +1381,7 @@ area/nadezhda/medical/medbaymeeting
 	name = "\improper Security - Main Gate"
 	icon_state = "security"
 	forced_ambience = list('sound/ambience/meadowamb1.ogg', 'sound/ambience/meadowamb2.ogg', 'sound/ambience/meadowamb3.ogg', 'sound/ambience/meadowamb4.ogg')
+	area_light_color = COLOR_LIGHTING_BLUE_BRIGHT
 
 /area/nadezhda/security/checkpoint/supply
 	name = "Security Post - Cargo Bay"
@@ -1716,10 +1718,10 @@ area/nadezhda/medical/medbaymeeting
 	name = "\improper Foreman Office"
 	icon_state = "erisgreen"
 
-/area/nadezhda/pros/shuttle
+/area/nadezhda/outside/pros/shuttle //changed typepath to include /outside/ because it is outside so the dynamic lighting CHANGES WITH EVERYTHING ELSE!!!
 	name = "\improper Shuttle Hangar"
 	icon_state = "erisgreen"
-	dynamic_lighting = FALSE
+	area_light_color = COLOR_LIGHTING_DEFAULT_BRIGHT
 
 /area/nadezhda/pros/proelav
 	name = "\improper Lonestar Surface Elevator"

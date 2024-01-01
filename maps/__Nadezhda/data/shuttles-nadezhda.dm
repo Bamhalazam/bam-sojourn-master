@@ -49,7 +49,7 @@
 	name = "Surface Transit Landing Pad"
 	icon_state = "shuttle"
 	requires_power = FALSE
-	dynamic_lighting = FALSE
+	dynamic_lighting = TRUE
 	base_turf = /turf/simulated/floor/plating/under
 
 //Consoles
@@ -235,8 +235,9 @@
 	name = "The Rocinante Landing Pad"
 	icon_state = "shuttle"
 	requires_power = FALSE
-	dynamic_lighting = FALSE
 	base_turf = /turf/simulated/floor/reinforced
+	area_light_color = COLOR_LIGHTING_ORANGE_BRIGHT
+	dynamic_lighting = TRUE
 
 //Marshal shuttle
 /datum/shuttle/autodock/multi/vasiliy
@@ -296,5 +297,7 @@
 	name = "The Vasiliy Landing Pad"
 	icon_state = "shuttle"
 	requires_power = FALSE
-	dynamic_lighting = FALSE
 	base_turf = /turf/simulated/floor/reinforced
+	area_light_color = COLOR_LIGHTING_BLUE_BRIGHT
+	dynamic_lighting = TRUE
+

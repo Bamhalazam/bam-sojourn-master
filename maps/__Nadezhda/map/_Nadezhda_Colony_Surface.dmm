@@ -14,11 +14,11 @@
 /obj/structure/catwalk,
 /obj/structure/catwalk,
 /turf/simulated/floor/plating/under,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "aad" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/plating/under,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "aae" = (
 /obj/structure/catwalk,
 /obj/structure/cable/green{
@@ -27,7 +27,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/plating/under,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "aaf" = (
 /obj/structure/catwalk,
 /obj/structure/cable/green{
@@ -36,7 +36,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/plating/under,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "aag" = (
 /turf/unsimulated/mask,
 /area/mine/gulag)
@@ -46,14 +46,14 @@
 	icon_state = "dangercorner"
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "aai" = (
 /obj/effect/floor_decal/industrial/danger{
 	dir = 1;
 	icon_state = "danger"
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "aaj" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/plating/under,
@@ -199,35 +199,35 @@
 "aay" = (
 /obj/effect/floor_decal/industrial/danger/corner,
 /turf/simulated/floor/tiled/dark/gray_platform,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "aaz" = (
 /obj/effect/floor_decal/industrial/danger,
 /turf/simulated/floor/tiled/dark/gray_platform,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "aaA" = (
 /obj/effect/floor_decal/industrial/danger,
 /obj/machinery/light/floor,
 /turf/simulated/floor/tiled/dark/gray_platform,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "aaB" = (
 /obj/effect/floor_decal/industrial/danger/corner{
 	dir = 1;
 	icon_state = "dangercorner"
 	},
 /turf/simulated/floor/tiled/dark/gray_platform,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "aaC" = (
 /obj/effect/floor_decal/industrial/danger{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "aaD" = (
 /obj/effect/floor_decal/industrial/danger{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "aaE" = (
 /obj/structure/flora/ausbushes/stalkybush,
 /turf/simulated/floor/asteroid/dirt,
@@ -240,7 +240,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "aaG" = (
 /obj/effect/floor_decal/industrial/danger{
 	dir = 8
@@ -249,14 +249,14 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "aaH" = (
 /obj/effect/floor_decal/industrial/danger,
 /obj/effect/floor_decal/industrial/stand_clear{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/gray_platform,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "aaI" = (
 /obj/effect/floor_decal/industrial/danger{
 	dir = 1;
@@ -264,7 +264,7 @@
 	},
 /obj/machinery/light/floor,
 /turf/simulated/floor/tiled/dark/gray_perforated,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "aaJ" = (
 /obj/effect/floor_decal/industrial/danger{
 	dir = 1;
@@ -272,14 +272,14 @@
 	},
 /obj/effect/floor_decal/industrial/stand_clear,
 /turf/simulated/floor/tiled/dark/gray_perforated,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "aaK" = (
 /obj/effect/floor_decal/industrial/danger/corner{
 	dir = 8;
 	icon_state = "dangercorner"
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "aaM" = (
 /obj/structure/table/standard,
 /obj/machinery/power/apc{
@@ -533,7 +533,7 @@
 	},
 /obj/structure/invislight,
 /turf/simulated/floor/plating/under,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "abp" = (
 /obj/structure/catwalk,
 /obj/structure/cable/green{
@@ -543,7 +543,7 @@
 	},
 /obj/structure/invislight,
 /turf/simulated/floor/plating/under,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "abq" = (
 /obj/machinery/door/airlock/lift,
 /turf/simulated/shuttle/floor/mining{
@@ -2383,7 +2383,7 @@
 /obj/structure/catwalk,
 /obj/structure/railing,
 /turf/simulated/floor/plating/under,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "afP" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -2421,7 +2421,7 @@
 "afU" = (
 /obj/effect/shuttle_landmark/mercshuttle_colony,
 /turf/simulated/floor/tiled/dark/gray_platform,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "afV" = (
 /obj/effect/floor_decal/industrial/danger{
 	dir = 4
@@ -2430,7 +2430,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "afW" = (
 /obj/effect/floor_decal/industrial/danger{
 	dir = 8
@@ -2439,7 +2439,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "afX" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -27595,7 +27595,7 @@
 /area/nadezhda/outside/forest)
 "wGQ" = (
 /turf/simulated/floor/tiled/dark/gray_platform,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "wGU" = (
 /obj/random/closet_maintloot/low_chance,
 /obj/effect/decal/cleanable/dirt,

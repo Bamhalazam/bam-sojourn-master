@@ -571,12 +571,13 @@
 /turf/simulated/floor/plating,
 /area/nadezhda/maintenance/substation/science)
 "ahr" = (
-/obj/structure/railing{
-	dir = 8
-	},
 /obj/structure/flora/ausbushes/brflowers,
-/turf/simulated/floor/asteroid/grass,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/turf/simulated/wall/r_wall,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "ahx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable/cyan{
@@ -1831,7 +1832,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/plating/under,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "avw" = (
 /obj/item/stock_parts/manipulator,
 /obj/item/circuitboard/vending,
@@ -2897,6 +2898,14 @@
 /obj/structure/table/woodentable,
 /turf/simulated/floor/carpet,
 /area/nadezhda/absolutism/chapel)
+"aFL" = (
+/obj/random/flora/jungle_tree,
+/turf/simulated/floor/asteroid/grass,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "aFT" = (
 /obj/structure/flora/small/grassb2,
 /turf/unsimulated/wall/jungle,
@@ -3119,7 +3128,7 @@
 /obj/item/stool/padded,
 /obj/landmark/join/start/foreigner,
 /turf/simulated/floor/wood,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "aIQ" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 4
@@ -3144,7 +3153,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating/under,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "aJa" = (
 /obj/structure/catwalk,
 /obj/structure/disposalpipe/segment,
@@ -3702,7 +3715,11 @@
 "aQK" = (
 /obj/structure/flora/rock,
 /turf/simulated/floor/beach/sand,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "aQL" = (
 /obj/machinery/power/apc{
 	dir = 1;
@@ -3790,7 +3807,7 @@
 /obj/structure/invislight,
 /obj/structure/invislight,
 /turf/simulated/floor/tiled/dark/techfloor,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "aRL" = (
 /obj/structure/railing/grey{
 	dir = 8
@@ -3995,7 +4012,7 @@
 /obj/structure/flora/ausbushes/brflowers,
 /obj/random/spider_trap_burrowing/low_chance,
 /turf/simulated/floor/asteroid/grass,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/area/nadezhda/outside/inside_colony)
 "aVo" = (
 /obj/machinery/light{
 	dir = 8
@@ -4133,7 +4150,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "aWI" = (
 /obj/machinery/vending/theomat,
 /turf/simulated/floor/tiled/dark/golden,
@@ -5285,6 +5306,13 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/nadezhda/rnd/xenobiology)
+"bit" = (
+/turf/simulated/floor/rock/manmade/road,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "biu" = (
 /obj/machinery/camera/network/security{
 	dir = 1
@@ -5556,7 +5584,11 @@
 "bkp" = (
 /obj/effect/floor_decal/industrial/road/curve4,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "bkA" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow,
 /obj/effect/window_lwall_spawn/smartspawnplasma,
@@ -6065,7 +6097,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/gray_platform,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "brj" = (
 /obj/machinery/power/apc{
 	dir = 4;
@@ -6087,7 +6119,7 @@
 "bro" = (
 /obj/machinery/vending/snack,
 /turf/simulated/floor/wood,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "brt" = (
 /obj/structure/railing,
 /turf/simulated/floor/plating/under,
@@ -6157,6 +6189,11 @@
 /obj/machinery/light,
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/shuttle/surface_transport_lz)
+"brP" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/big/bush2,
+/turf/simulated/floor/asteroid/grass,
+/area/nadezhda/outside/inside_colony)
 "brR" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -6605,7 +6642,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "bwA" = (
 /obj/effect/floor_decal/industrial/danger/corner{
 	dir = 1
@@ -7058,7 +7099,7 @@
 /obj/structure/catwalk,
 /obj/structure/invislight,
 /turf/simulated/floor/plating/under,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "bCg" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -7330,7 +7371,7 @@
 /obj/structure/table/woodentable,
 /obj/item/clothing/mask/smokable/cigarette/cigar,
 /turf/simulated/floor/wood,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "bFk" = (
 /obj/structure/cable/cyan{
 	d1 = 4;
@@ -7382,7 +7423,7 @@
 /obj/structure/largecrate,
 /obj/effect/floor_decal/industrial/botright/yellow,
 /turf/simulated/floor/tiled/dark/techfloor,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "bFL" = (
 /obj/structure/grille,
 /obj/effect/decal/cleanable/dirt,
@@ -7825,7 +7866,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "bKh" = (
 /obj/structure/table/reinforced,
 /obj/random/powercell/large_safe_lonestar,
@@ -8018,6 +8063,9 @@
 /turf/simulated/wall/r_wall,
 /area/nadezhda/engineering/atmos)
 "bMj" = (
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/nadezhda/crew_quarters/hydroponics/garden)
 "bMm" = (
@@ -8115,9 +8163,12 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/undergroundfloor1north)
 "bNm" = (
-/obj/machinery/porta_turret/gate,
-/turf/simulated/floor/asteroid/dirt,
-/area/nadezhda/security/maingate)
+/turf/simulated/floor/tiled/dark/golden,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "bNv" = (
 /obj/structure/table/marble,
 /obj/machinery/microwave,
@@ -8330,7 +8381,7 @@
 /obj/effect/floor_decal/industrial/botright/yellow,
 /obj/random/structures,
 /turf/simulated/floor/tiled/dark/techfloor,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "bRo" = (
 /obj/machinery/atmospherics/unary/vent_scrubber{
 	dir = 1
@@ -8385,7 +8436,11 @@
 "bRK" = (
 /obj/effect/floor_decal/industrial/warningwhite,
 /turf/simulated/floor/tiled/dark/techfloor,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "bRX" = (
 /obj/effect/floor_decal/industrial/outline,
 /obj/machinery/conveyor_switch/oneway{
@@ -8454,7 +8509,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/small/rock3,
 /turf/simulated/floor/tiled/dark/golden,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "bSP" = (
 /obj/structure/flora/small/bushb1,
 /obj/structure/flora/small/bushb1,
@@ -8712,7 +8771,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating/under,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "bVq" = (
 /obj/machinery/washing_machine,
 /obj/structure/catwalk,
@@ -8762,7 +8821,7 @@
 /obj/effect/floor_decal/industrial/warningred,
 /obj/effect/floor_decal/industrial/stand_clear/red,
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/pros/shuttle)
 "bVH" = (
 /obj/structure/multiz/stairs/active/bottom,
 /obj/structure/window/reinforced{
@@ -9376,10 +9435,6 @@
 /area/nadezhda/rnd/circuitlab{
 	name = "Science Expedition prep"
 	})
-"ccn" = (
-/obj/structure/flora/ausbushes/palebush,
-/turf/simulated/floor/asteroid/grass,
-/area/nadezhda/crew_quarters/hydroponics/garden)
 "cco" = (
 /turf/unsimulated/mask,
 /area/nadezhda/dungeon/outside/trashcave)
@@ -9580,7 +9635,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "cfu" = (
 /turf/simulated/mineral,
 /area/nadezhda/rnd/server)
@@ -9737,7 +9796,11 @@
 /obj/effect/floor_decal/industrial/road/straight1,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "cgS" = (
 /obj/machinery/optable/altar,
 /obj/machinery/hologram/holopad,
@@ -9851,7 +9914,11 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating/under,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "cij" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 1
@@ -9871,6 +9938,13 @@
 	},
 /turf/simulated/floor/asteroid/dirt/dust,
 /area/nadezhda/security/maingate)
+"cin" = (
+/turf/simulated/mineral,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "cir" = (
 /mob/living/simple_animal/crab,
 /turf/simulated/floor/asteroid/dirt,
@@ -10134,6 +10208,18 @@
 /obj/structure/reagent_dispensers/watertank/huge,
 /turf/simulated/floor/wood/wild4,
 /area/nadezhda/dungeon/outside/farm)
+"cli" = (
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	pixel_y = 0
+	},
+/turf/simulated/floor/asteroid/dirt/dust,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "clk" = (
 /mob/living/simple_animal/fennec,
 /turf/simulated/floor/beach/sand,
@@ -10261,7 +10347,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/gray_platform,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "cmB" = (
 /obj/structure/catwalk,
 /obj/structure/invislight,
@@ -10735,7 +10821,7 @@
 /obj/structure/table/woodentable,
 /obj/item/flame/lighter/zippo/capitalist,
 /turf/simulated/floor/wood,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "csK" = (
 /obj/structure/catwalk,
 /obj/structure/railing{
@@ -10818,7 +10904,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/gray_platform,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "cuo" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 8
@@ -10838,7 +10928,11 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "cus" = (
 /obj/structure/catwalk,
 /obj/structure/cable/cyan{
@@ -11140,7 +11234,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "cxu" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
@@ -11190,7 +11284,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating/under,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "cym" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
@@ -11247,7 +11341,11 @@
 /obj/structure/flora/ausbushes/pointybush,
 /obj/structure/flora/big/rocks3,
 /turf/simulated/floor/asteroid/dirt,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "cyG" = (
 /obj/machinery/light/small,
 /obj/machinery/atmospherics/unary/vent_scrubber{
@@ -11357,7 +11455,11 @@
 "cAa" = (
 /obj/structure/flora/small/lavarock3,
 /turf/simulated/floor/asteroid/dirt/dark,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "cAb" = (
 /obj/random/junk/nondense,
 /turf/simulated/floor/tiled/techmaint,
@@ -12431,7 +12533,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/gray_platform,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "cLy" = (
 /obj/structure/multiz/stairs/active/bottom,
 /turf/simulated/floor/tiled/white,
@@ -12548,7 +12650,11 @@
 /obj/effect/floor_decal/industrial/road/straight3,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "cMS" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
@@ -12997,6 +13103,14 @@
 	name = "murky water"
 	},
 /area/asteroid/cave)
+"cQQ" = (
+/obj/structure/flora/ausbushes/pointybush,
+/turf/simulated/floor/asteroid/grass,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "cQT" = (
 /obj/machinery/computer/general_air_control/large_tank_control{
 	dir = 1;
@@ -13841,7 +13955,7 @@
 /area/nadezhda/outside/inside_colony)
 "cZu" = (
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/pros/shuttle)
 "cZC" = (
 /obj/structure/flora/small/busha2,
 /turf/simulated/floor/asteroid/grass,
@@ -14265,7 +14379,11 @@
 	tag = "icon-railing0 (EAST)"
 	},
 /turf/simulated/floor/asteroid/dirt,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "dff" = (
 /obj/machinery/atmospherics/unary/cryo_cell,
 /turf/simulated/floor/tiled/white/gray_platform,
@@ -14370,7 +14488,11 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "dgi" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment{
@@ -14390,7 +14512,11 @@
 	tag = "icon-railing0 (EAST)"
 	},
 /turf/simulated/floor/asteroid/grass,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "dgE" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/beach/water/jungledeep{
@@ -14780,6 +14906,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1north)
+"dlk" = (
+/obj/structure/low_wall,
+/turf/simulated/floor/asteroid/dirt,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "dll" = (
 /obj/structure/cable/cyan{
 	d1 = 1;
@@ -14813,6 +14947,16 @@
 /obj/machinery/bodyscanner,
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/nadezhda/security/triage_blackshield)
+"dlR" = (
+/obj/machinery/camera/network/gate{
+	network = list("Nadzedha Wall Colony")
+	},
+/obj/machinery/light/floor,
+/obj/effect/floor_decal/industrial/warningwhite{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/gray_platform,
+/area/nadezhda/security/maingate)
 "dlS" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_y = 28
@@ -15529,7 +15673,11 @@
 /obj/effect/floor_decal/industrial/warningwhite,
 /obj/effect/floor_decal/industrial/road/straight1,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "dua" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -16162,7 +16310,11 @@
 "dzL" = (
 /obj/effect/floor_decal/industrial/road/curve1,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "dzN" = (
 /obj/random/cluster/tengolo,
 /turf/simulated/floor/asteroid/dirt/dust,
@@ -16231,7 +16383,7 @@
 /obj/structure/table/woodentable,
 /obj/item/book/manual/fiction/warandpeace,
 /turf/simulated/floor/wood,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "dAP" = (
 /obj/structure/table/reinforced,
 /obj/item/stack/cable_coil/random,
@@ -17156,11 +17308,28 @@
 /obj/structure/flora/ausbushes/stalkybush,
 /turf/simulated/floor/beach/sand,
 /area/nadezhda/outside/pond)
+"dKB" = (
+/obj/structure/multiz/stairs/enter/bottom{
+	dir = 8
+	},
+/obj/structure/railing,
+/turf/simulated/floor/tiled/dark/gray_platform,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "dKC" = (
-/obj/structure/flora/ausbushes/brflowers,
-/obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/asteroid/dirt/dark,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/obj/structure/railing{
+	dir = 4;
+	tag = "icon-railing0 (EAST)"
+	},
+/turf/simulated/wall/r_wall,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "dKD" = (
 /obj/structure/table/glass,
 /obj/item/storage/firstaid/surgery,
@@ -17584,6 +17753,15 @@
 	icon_state = "10,18"
 	},
 /area/nadezhda/hallway/side/f2section1)
+"dOE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor,
+/turf/simulated/floor/tiled/dark/golden,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "dOV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -17987,7 +18165,7 @@
 	name = "Terminal Lounge"
 	},
 /turf/simulated/floor/plating,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "dTF" = (
 /obj/structure/cable/cyan{
 	d1 = 1;
@@ -18053,7 +18231,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/pros/shuttle)
 "dUp" = (
 /obj/item/reagent_containers/syringe,
 /obj/effect/decal/cleanable/dirt,
@@ -18253,12 +18431,25 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white/techfloor,
 /area/nadezhda/rnd/robotics)
+"dXa" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/asteroid/grass,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "dXe" = (
 /obj/effect/floor_decal/industrial/danger{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "dXk" = (
 /obj/effect/decal/cleanable/rubble,
 /turf/simulated/floor/asteroid/dirt,
@@ -18573,7 +18764,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "dZP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -18794,7 +18985,11 @@
 /obj/structure/multiz/stairs/enter/bottom,
 /obj/structure/invislight,
 /turf/simulated/floor/tiled/white/brown_perforated,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "ebW" = (
 /obj/machinery/conveyor/south{
 	id = "junk_to_bioreactor";
@@ -18938,6 +19133,18 @@
 /obj/structure/flora/small/rock4,
 /turf/simulated/floor/asteroid/dirt/dust,
 /area/nadezhda/outside/bcave)
+"edU" = (
+/obj/effect/floor_decal/industrial/road/straight3,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor{
+	pixel_y = 4
+	},
+/turf/simulated/floor/rock/manmade/road,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "edZ" = (
 /obj/structure/table/woodentable,
 /obj/random/booze/low_chance,
@@ -19003,7 +19210,11 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "eeP" = (
 /obj/structure/flora/ausbushes/palebush,
 /obj/structure/flora/small/busha1,
@@ -19260,7 +19471,7 @@
 /obj/structure/bed/chair/comfy/brown,
 /obj/landmark/join/start/foreigner,
 /turf/simulated/floor/wood,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "egP" = (
 /turf/simulated/mineral,
 /area/nadezhda/command/tcommsat/computer)
@@ -19544,7 +19755,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/pros/shuttle)
 "ekw" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/techmaint,
@@ -19765,6 +19976,9 @@
 	dir = 5
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark/golden,
 /area/nadezhda/crew_quarters/hydroponics/garden)
 "eng" = (
@@ -19863,6 +20077,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/violetcorener,
 /area/nadezhda/medical/genetics)
+"enL" = (
+/obj/machinery/porta_turret/gate,
+/obj/effect/floor_decal/industrial/warningwhite{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/cargo,
+/area/nadezhda/security/maingate)
 "enO" = (
 /obj/structure/shuttle_part/science{
 	icon_state = "1,5"
@@ -19927,7 +20148,11 @@
 /obj/structure/railing/grey,
 /obj/structure/flora/ausbushes/genericbush,
 /turf/simulated/floor/asteroid/dirt/dark,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "eox" = (
 /obj/item/device/lighting/toggleable/lantern,
 /turf/simulated/floor/wood/wild5,
@@ -20498,7 +20723,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "eti" = (
 /obj/structure/table/bench/wooden,
 /obj/machinery/light/small{
@@ -20953,7 +21178,7 @@
 	},
 /obj/effect/floor_decal/industrial/warningred,
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/pros/shuttle)
 "eyw" = (
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -20997,7 +21222,11 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "ezd" = (
 /obj/structure/sign/warning/hazard_coldloop,
 /turf/simulated/wall/r_wall,
@@ -21318,7 +21547,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "eDa" = (
 /obj/structure/shuttle_part/science{
 	icon_state = "9,20"
@@ -21818,7 +22051,11 @@
 	network = list("Nadzedha    Wall    Colony")
 	},
 /turf/simulated/floor/plating/under,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "eJA" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/unary/vent_pump{
@@ -22754,7 +22991,7 @@
 	},
 /obj/effect/floor_decal/industrial/box/red/corners,
 /turf/simulated/floor/wood,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "eRC" = (
 /obj/structure/catwalk,
 /obj/random/junk/low_chance,
@@ -22910,7 +23147,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "eUy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -23865,12 +24102,12 @@
 	dir = 1
 	},
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "ffq" = (
 /obj/structure/reagent_dispensers/fueltank/huge,
 /obj/effect/floor_decal/industrial/botright/red,
 /turf/simulated/floor/tiled/dark/techfloor,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "ffx" = (
 /obj/machinery/power/smes/buildable{
 	RCon_tag = "Telecommunications";
@@ -23908,7 +24145,11 @@
 /obj/effect/floor_decal/industrial/box/red,
 /obj/structure/reagent_dispensers/fueltank/huge,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "ffH" = (
 /obj/random/booze,
 /obj/random/booze,
@@ -24048,7 +24289,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/pros/shuttle)
 "fgW" = (
 /obj/effect/floor_decal/industrial/warningred{
 	dir = 8
@@ -24874,7 +25115,11 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating/under,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "foa" = (
 /obj/item/clothing/head/costume/history/piratecap,
 /obj/item/clothing/head/costume/history/piratecap,
@@ -24941,7 +25186,11 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "fov" = (
 /obj/structure/cable/cyan{
 	d1 = 1;
@@ -25468,6 +25717,16 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white/gray_perforated,
 /area/nadezhda/maintenance/undergroundfloor1west)
+"fuZ" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/asteroid/grass,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "fvd" = (
 /obj/structure/sink{
 	dir = 4;
@@ -25647,6 +25906,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white/gray_platform,
 /area/nadezhda/crew_quarters/techshop)
+"fxj" = (
+/turf/simulated/wall/r_wall,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "fxl" = (
 /obj/machinery/atmospherics/pipe/zpipe/down,
 /turf/simulated/open,
@@ -25673,7 +25939,7 @@
 	tag = "icon-railing0 (WEST)"
 	},
 /turf/simulated/floor/plating/under,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/pros/shuttle)
 "fxI" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red,
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
@@ -26029,6 +26295,16 @@
 	},
 /turf/simulated/floor/carpet,
 /area/nadezhda/command/merchant)
+"fBO" = (
+/obj/machinery/light/floor{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "fBP" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -26197,9 +26473,6 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating/under,
 /area/nadezhda/engineering/engine_room)
-"fDy" = (
-/turf/simulated/floor/asteroid/dirt,
-/area/nadezhda/crew_quarters/hydroponics/garden)
 "fDC" = (
 /obj/structure/table/reinforced,
 /turf/simulated/floor/tiled/dark/gray_platform,
@@ -26699,7 +26972,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/techfloor,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "fJk" = (
 /obj/machinery/button/remote/blast_door{
 	id = "turbineexit";
@@ -27268,6 +27545,14 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1south)
+"fQI" = (
+/obj/structure/closet/crate/bin,
+/turf/simulated/floor/asteroid/dirt,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "fQK" = (
 /obj/structure/closet/secure_closet/personal,
 /obj/machinery/atmospherics/unary/vent_scrubber,
@@ -27830,6 +28115,16 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/nadezhda/pros/prep)
+"fXD" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/asteroid/grass,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "fXJ" = (
 /obj/structure/flora/small/trailrockb3,
 /turf/simulated/floor/rock,
@@ -28039,10 +28334,6 @@
 	},
 /turf/simulated/floor/tiled/dark/bluecorner,
 /area/nadezhda/security/sechall)
-"fZN" = (
-/obj/random/spider_trap_burrowing/low_chance,
-/turf/simulated/floor/asteroid/grass,
-/area/nadezhda/crew_quarters/hydroponics/garden)
 "fZQ" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -28397,7 +28688,11 @@
 	tag = "icon-railing0 (WEST)"
 	},
 /turf/simulated/floor/asteroid/grass,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "gdC" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/decal/cleanable/dirt,
@@ -28483,7 +28778,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/asteroid/dirt,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "geo" = (
 /obj/effect/window_lwall_spawn/smartspawn,
 /obj/machinery/door/firedoor,
@@ -28504,6 +28803,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood,
 /area/nadezhda/absolutism/vectorrooms)
+"geE" = (
+/turf/simulated/floor/asteroid/dirt/dust,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "geI" = (
 /obj/structure/table/steel,
 /obj/random/credits/low_chance,
@@ -29150,7 +29456,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/floor_decal/industrial/road/straight2,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "gkD" = (
 /obj/structure/cable/cyan{
 	d1 = 4;
@@ -29248,7 +29558,11 @@
 /obj/effect/floor_decal/industrial/road/straight4,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "glV" = (
 /obj/machinery/door/airlock{
 	name = "Kitchen";
@@ -30191,7 +30505,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "gvz" = (
 /obj/structure/flora/big/bush2,
 /obj/structure/flora/small/bushb1,
@@ -30402,6 +30720,16 @@
 	},
 /turf/simulated/floor/wood/wild3,
 /area/nadezhda/command/crematorium)
+"gxX" = (
+/obj/effect/floor_decal/industrial/warningwhite{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/gray_platform,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "gyd" = (
 /obj/random/scrap/dense_weighted/low_chance,
 /obj/effect/decal/cleanable/dirt,
@@ -30611,10 +30939,12 @@
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/dungeon/outside/burned_outpost)
 "gAL" = (
-/obj/structure/catwalk,
-/obj/machinery/camera/network/colony_surface,
-/turf/simulated/floor/plating/under,
-/area/nadezhda/outside/inside_colony)
+/turf/simulated/floor/asteroid/dirt/dust,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "gAO" = (
 /obj/effect/decal/cleanable/rubble,
 /turf/simulated/floor/asteroid/dirt/dark,
@@ -30627,7 +30957,11 @@
 	dir = 8
 	},
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "gAZ" = (
 /obj/effect/decal/cleanable/generic,
 /obj/effect/decal/cleanable/dirt,
@@ -30906,7 +31240,7 @@
 "gEv" = (
 /obj/effect/floor_decal/industrial/warningred,
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/pros/shuttle)
 "gEA" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/wild1,
@@ -31033,7 +31367,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/plating/under,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "gGY" = (
 /obj/structure/table/steel,
 /obj/item/device/lighting/toggleable/lamp,
@@ -31180,7 +31514,11 @@
 /obj/structure/flora/ausbushes/reedbush,
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/simulated/floor/asteroid/dirt/dark,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "gJa" = (
 /obj/structure/cable/cyan{
 	d1 = 1;
@@ -31254,7 +31592,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "gKd" = (
 /obj/machinery/door/firedoor/multi_tile{
 	dir = 2
@@ -31356,6 +31694,11 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/shuttle/vasiliy_shuttle_area)
+"gLl" = (
+/obj/effect/overlay/water,
+/obj/effect/overlay/water/top,
+/turf/simulated/floor/beach/water/jungle,
+/area/nadezhda/outside/forest)
 "gLs" = (
 /obj/machinery/slotmachine,
 /obj/effect/decal/cleanable/dirt,
@@ -31402,7 +31745,11 @@
 "gMn" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/simulated/floor/asteroid/dirt/dark,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "gMp" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -31673,7 +32020,11 @@
 /obj/structure/largecrate,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "gOZ" = (
 /obj/structure/noticeboard/anomaly,
 /turf/simulated/wall/r_wall,
@@ -31770,6 +32121,18 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/bluecorner,
 /area/nadezhda/security/sechall)
+"gQi" = (
+/obj/effect/floor_decal/industrial/road/straight2,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor{
+	dir = 4
+	},
+/turf/simulated/floor/rock/manmade/road,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "gQj" = (
 /obj/structure/railing{
 	dir = 4;
@@ -31781,6 +32144,13 @@
 /obj/structure/boulder,
 /turf/unsimulated/mineral,
 /area/asteroid/cave)
+"gQo" = (
+/turf/simulated/wall/r_wall,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "gQt" = (
 /obj/machinery/light/small,
 /obj/effect/decal/cleanable/dirt,
@@ -31996,7 +32366,7 @@
 "gSP" = (
 /obj/effect/floor_decal/industrial/danger/corner,
 /turf/simulated/floor/tiled/dark/gray_platform,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "gSR" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/plating/under,
@@ -32099,7 +32469,11 @@
 	tag = "icon-railing0 (EAST)"
 	},
 /turf/simulated/floor/asteroid/grass,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "gTp" = (
 /turf/simulated/floor/wood,
 /area/nadezhda/command/merchant)
@@ -32259,7 +32633,11 @@
 "gUZ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "gVe" = (
 /obj/item/caution/cone,
 /obj/effect/decal/cleanable/dirt,
@@ -33026,6 +33404,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/turret_protected/ai)
+"hdW" = (
+/turf/simulated/floor/beach/sand,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "hdX" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/dirt,
@@ -33312,7 +33697,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/floor_decal/industrial/road/straight2,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "hhe" = (
 /obj/machinery/atmospherics/unary/vent_pump{
 	dir = 4
@@ -33473,8 +33862,14 @@
 	dir = 4
 	},
 /obj/structure/flora/small/grassb4,
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/ausbushes/brflowers,
 /turf/simulated/floor/asteroid/dirt/dark,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "hjL" = (
 /obj/structure/table/woodentable,
 /obj/effect/decal/cleanable/dirt,
@@ -33762,7 +34157,7 @@
 	name = "Fence Lockdown";
 	opacity = 0
 	},
-/turf/simulated/floor/asteroid/dirt,
+/turf/simulated/floor/tiled/dark/cargo,
 /area/nadezhda/security/maingate)
 "hmr" = (
 /obj/structure/railing/grey{
@@ -33893,7 +34288,11 @@
 	dir = 8
 	},
 /turf/simulated/floor/asteroid/dirt,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "hop" = (
 /obj/structure/catwalk,
 /obj/machinery/exploration/adms,
@@ -33903,7 +34302,7 @@
 /obj/structure/disposalpipe/trunk,
 /obj/machinery/disposal,
 /turf/simulated/floor/wood,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "hox" = (
 /obj/machinery/atmospherics/binary/pump{
 	dir = 4;
@@ -34186,7 +34585,11 @@
 /obj/structure/disposalpipe/segment,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "hrP" = (
 /turf/simulated/wall/r_wall,
 /area/nadezhda/engineering/engine_room)
@@ -34346,7 +34749,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "htA" = (
 /obj/structure/disposalpipe/junction{
 	dir = 8
@@ -34624,7 +35031,7 @@
 	},
 /obj/machinery/light/floor,
 /turf/simulated/floor/tiled/dark/gray_perforated,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "hwY" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white/cyancorner,
@@ -35203,7 +35610,11 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/techfloor,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "hCl" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_y = -30
@@ -35817,7 +36228,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/techfloor,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "hIo" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
@@ -35904,7 +36319,11 @@
 /obj/structure/flora/ausbushes/reedbush,
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/simulated/floor/asteroid/dirt/dark,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "hIO" = (
 /turf/simulated/shuttle/floor/mining{
 	icon_state = "9,23"
@@ -37548,7 +37967,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/techfloor,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "iaj" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/violetcorener,
@@ -38385,6 +38808,17 @@
 	},
 /turf/simulated/open,
 /area/asteroid/cave)
+"ijk" = (
+/obj/effect/floor_decal/industrial/warningwhite{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/dark/gray_platform,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "ijl" = (
 /obj/item/weldpack/canister,
 /turf/simulated/floor/rock,
@@ -38451,7 +38885,11 @@
 "ijO" = (
 /obj/structure/flora/ausbushes/grassybush,
 /turf/simulated/floor/asteroid/dirt/dark,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "ijT" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/yellow{
 	dir = 8
@@ -38496,9 +38934,16 @@
 "iko" = (
 /obj/machinery/camera/network/gate{
 	dir = 4;
-	network = list("Nadzedha Wall Colony")
+	network = list("Nadzedha Wall Colony");
+	pixel_y = -10
 	},
-/turf/simulated/floor/asteroid/dirt/dust,
+/obj/machinery/light/floor{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warningwhite{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/gray_platform,
 /area/nadezhda/security/maingate)
 "ikp" = (
 /obj/structure/flora/big/bush3,
@@ -38770,6 +39215,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/steel/bluecorner,
 /area/nadezhda/security/armory_blackshield)
+"imN" = (
+/obj/structure/flora/small/rock3,
+/obj/structure/invislight,
+/turf/simulated/floor/asteroid/dirt,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "imQ" = (
 /obj/machinery/atmospherics/unary/vent_scrubber{
 	dir = 8
@@ -38824,7 +39278,11 @@
 "ine" = (
 /obj/effect/floor_decal/industrial/road/straight1,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "inf" = (
 /obj/random/scrap/dense_weighted/low_chance,
 /obj/effect/decal/cleanable/rubble,
@@ -39119,7 +39577,11 @@
 	pixel_x = -2
 	},
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "iqP" = (
 /turf/simulated/shuttle/wall/mining{
 	icon_state = "7,10"
@@ -39307,7 +39769,7 @@
 /area/nadezhda/command/teleporter)
 "itd" = (
 /turf/simulated/floor/tiled/dark/gray_platform,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "itf" = (
 /obj/structure/flora/small/rock5,
 /obj/random/flora/small_jungle_tree,
@@ -39359,7 +39821,11 @@
 "itr" = (
 /obj/effect/floor_decal/industrial/hatch,
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "itt" = (
 /obj/structure/table/woodentable,
 /turf/simulated/floor/carpet/sblucarpet,
@@ -39669,7 +40135,10 @@
 /area/nadezhda/maintenance/undergroundfloor1east)
 "iwT" = (
 /obj/machinery/porta_turret/gate,
-/turf/simulated/floor/asteroid/dirt/dust,
+/obj/effect/floor_decal/industrial/warningwhite{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/gray_platform,
 /area/nadezhda/security/maingate)
 "iwU" = (
 /obj/structure/disposalpipe/segment{
@@ -40246,6 +40715,26 @@
 /obj/machinery/atmospherics/pipe/simple/visible/yellow,
 /turf/simulated/floor/plating/under,
 /area/nadezhda/engineering/atmos)
+"iDy" = (
+/obj/machinery/light/floor{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warningwhite{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/cargo,
+/area/nadezhda/security/maingate)
+"iDD" = (
+/obj/effect/floor_decal/industrial/road/straight2,
+/obj/machinery/light/floor{
+	dir = 4
+	},
+/turf/simulated/floor/rock/manmade/road,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "iDJ" = (
 /obj/structure/flora/small/rock4,
 /turf/simulated/floor/asteroid/grass,
@@ -40575,7 +41064,7 @@
 "iHH" = (
 /obj/structure/multiz/stairs/enter/bottom,
 /turf/simulated/floor/tiled/dark/techfloor,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/pros/shuttle)
 "iHP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/hologram/holopad,
@@ -41608,7 +42097,7 @@
 	},
 /obj/effect/floor_decal/industrial/warningred,
 /turf/simulated/floor/wood/wild3,
-/area/nadezhda/command/crematorium)
+/area/nadezhda/absolutism/storage)
 "iUn" = (
 /obj/effect/floor_decal/spline/fancy,
 /obj/machinery/firealarm{
@@ -41940,7 +42429,7 @@
 	},
 /obj/structure/closet/wardrobe/color/black,
 /turf/simulated/floor/wood/wild3,
-/area/nadezhda/command/crematorium)
+/area/nadezhda/absolutism/storage)
 "iYn" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/random/mob/spiders/low_chance,
@@ -42145,10 +42634,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white/techfloor,
 /area/nadezhda/rnd/robotics)
-"jaF" = (
-/obj/random/flora/jungle_tree/low,
-/turf/simulated/floor/asteroid/grass,
-/area/nadezhda/crew_quarters/hydroponics/garden)
 "jaI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -42509,8 +42994,12 @@
 	dir = 8
 	},
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/asteroid/grass,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/turf/simulated/wall/r_wall,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "jej" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
@@ -43043,6 +43532,16 @@
 "jjY" = (
 /turf/simulated/floor/tiled/dark/golden,
 /area/nadezhda/absolutism/vectorrooms)
+"jka" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/asteroid/dirt,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "jkb" = (
 /obj/random/booze/low_chance,
 /obj/structure/table/bar_special,
@@ -43501,7 +44000,7 @@
 	},
 /obj/structure/closet/wardrobe/color/black,
 /turf/simulated/floor/wood/wild3,
-/area/nadezhda/command/crematorium)
+/area/nadezhda/absolutism/storage)
 "jop" = (
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/dark/danger,
@@ -43916,6 +44415,14 @@
 /obj/structure/flora/small/bushb3,
 /turf/unsimulated/wall/jungle,
 /area/nadezhda/outside/forest)
+"jsD" = (
+/obj/structure/flora/ausbushes/ywflowers,
+/turf/simulated/floor/asteroid/grass,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "jsE" = (
 /obj/structure/flora/small/grassb2,
 /obj/structure/flora/ausbushes/brflowers,
@@ -43964,6 +44471,10 @@
 /area/nadezhda/maintenance{
 	name = "Residential District Maintenance"
 	})
+"jtr" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/turf/simulated/floor/asteroid/dirt/dust,
+/area/nadezhda/outside/forest)
 "jtA" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/table/rack/shelf,
@@ -45566,7 +46077,7 @@
 	tag = "icon-railing0 (EAST)"
 	},
 /turf/simulated/floor/plating/under,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/pros/shuttle)
 "jLJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/hologram/holopad,
@@ -46345,7 +46856,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "jTx" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white/brown_platform,
@@ -46477,6 +46992,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/nadezhda/engineering/engine_room)
+"jVm" = (
+/obj/machinery/porta_turret/gate,
+/obj/effect/floor_decal/industrial/warningwhite{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/cargo,
+/area/nadezhda/security/maingate)
 "jVn" = (
 /obj/structure/bed/psych{
 	desc = "It can be a bit noisy, but still serves well.";
@@ -46626,6 +47148,14 @@
 /obj/effect/decal/cleanable/rubble,
 /turf/simulated/wall,
 /area/nadezhda/maintenance/undergroundfloor1north)
+"jWQ" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/dark/gray_platform,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "jXq" = (
 /obj/effect/spider/stickyweb,
 /obj/effect/decal/cleanable/dirt,
@@ -47510,7 +48040,7 @@
 "kgI" = (
 /obj/effect/window_lwall_spawn/reinforced,
 /turf/simulated/floor/plating,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "kgK" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/decal/cleanable/dirt,
@@ -47755,7 +48285,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "kju" = (
 /obj/structure/table/marble,
 /obj/item/contraband/poster/placed/generic/fancierborg{
@@ -48058,7 +48588,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/tiled/dark/gray_platform,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "kmE" = (
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/security/maingate)
@@ -48081,6 +48611,14 @@
 	icon_state = "5,14"
 	},
 /area/shuttle/vasiliy_shuttle_area)
+"knd" = (
+/obj/structure/flora/ausbushes/ywflowers,
+/turf/simulated/floor/asteroid/grass,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "knh" = (
 /obj/effect/window_lwall_spawn/reinforced,
 /obj/machinery/door/blast/regular{
@@ -48191,7 +48729,11 @@
 /obj/effect/floor_decal/industrial/road/curve4,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "knY" = (
 /obj/structure/flora/ausbushes/brflowers,
 /turf/simulated/floor/asteroid/dirt,
@@ -48505,7 +49047,7 @@
 /obj/item/tool/screwdriver,
 /obj/random/booze/low_chance,
 /turf/simulated/floor/tiled/dark/techfloor,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "krs" = (
 /mob/living/simple_animal/frog/rare,
 /turf/simulated/floor/asteroid/grass,
@@ -48629,9 +49171,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white/brown_platform,
 /area/nadezhda/maintenance/undergroundfloor1north)
-"ksX" = (
-/turf/simulated/floor/tiled/dark/golden,
-/area/nadezhda/outside/inside_colony)
 "ksZ" = (
 /obj/machinery/atmospherics/unary/vent_scrubber{
 	dir = 8
@@ -48674,7 +49213,7 @@
 	pixel_x = -5
 	},
 /turf/simulated/floor/tiled/dark/techfloor,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "ktA" = (
 /obj/random/cluster/roaches/low_chance,
 /obj/effect/decal/cleanable/dirt,
@@ -48942,7 +49481,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/asteroid/grass,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "kwf" = (
 /obj/item/toy/plushie/mouse,
 /turf/simulated/floor/wood,
@@ -49004,6 +49543,13 @@
 /turf/simulated/floor/tiled/white/brown_perforated,
 /area/nadezhda/maintenance{
 	name = "Residential District Maintenance"
+	})
+"kwI" = (
+/turf/simulated/floor/tiled/dark/gray_platform,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
 	})
 "kwJ" = (
 /obj/machinery/atmospherics/unary/vent_scrubber,
@@ -49341,6 +49887,16 @@
 	},
 /turf/simulated/floor/tiled/dark/techfloor_grid,
 /area/nadezhda/absolutism/bioreactor)
+"kzZ" = (
+/obj/machinery/light/floor{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/golden,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "kAb" = (
 /obj/structure/table/standard,
 /obj/item/folder/yellow,
@@ -49480,7 +50036,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "kBu" = (
 /obj/structure/grille,
 /turf/simulated/floor/plating/under,
@@ -50089,6 +50645,14 @@
 /obj/machinery/portable_atmospherics/powered/scrubber,
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/nadezhda/engineering/atmos)
+"kKa" = (
+/obj/random/flora/small_jungle_tree,
+/turf/simulated/floor/asteroid/grass,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "kKd" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/simulated/floor/asteroid/grass,
@@ -50384,7 +50948,11 @@
 /obj/effect/floor_decal/industrial/road/curve3,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "kNw" = (
 /obj/machinery/power/nt_obelisk,
 /turf/simulated/floor/tiled/dark/techfloor_grid,
@@ -51235,7 +51803,11 @@
 "kXv" = (
 /obj/structure/flora/rock/variant1,
 /turf/simulated/floor/beach/sand,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "kXw" = (
 /obj/structure/bed/chair{
 	dir = 1
@@ -51278,7 +51850,11 @@
 	dir = 8
 	},
 /turf/simulated/floor/asteroid/grass,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "kYc" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -51298,7 +51874,11 @@
 	},
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/simulated/floor/asteroid/grass,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "kYj" = (
 /turf/simulated/floor/tiled/dark/golden,
 /area/nadezhda/absolutism/storage)
@@ -51325,7 +51905,7 @@
 	},
 /obj/structure/railing,
 /turf/simulated/floor/plating/under,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/pros/shuttle)
 "kYT" = (
 /obj/effect/floor_decal/industrial/stand_clear,
 /obj/effect/decal/cleanable/dirt,
@@ -51437,7 +52017,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/pros/shuttle)
 "laP" = (
 /obj/machinery/light{
 	dir = 8
@@ -51690,6 +52270,18 @@
 "ldC" = (
 /turf/simulated/floor/carpet,
 /area/nadezhda/crew_quarters/dorm4)
+"ldK" = (
+/obj/effect/floor_decal/industrial/road/straight1,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor{
+	dir = 8
+	},
+/turf/simulated/floor/rock/manmade/road,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "ldO" = (
 /obj/effect/floor_decal/industrial/danger{
 	dir = 1
@@ -52914,6 +53506,10 @@
 /obj/structure/cyberplant,
 /turf/simulated/floor/carpet/bcarpet,
 /area/nadezhda/crew_quarters/dorm3)
+"lth" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/turf/simulated/floor/asteroid/dirt/dust,
+/area/nadezhda/outside/forest)
 "ltj" = (
 /obj/effect/window_lwall_spawn/smartspawn,
 /turf/simulated/floor/tiled/white/gray_platform,
@@ -53076,6 +53672,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/absolutism/storage)
+"luF" = (
+/turf/simulated/floor/asteroid/dirt,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "luL" = (
 /obj/machinery/telecomms/server/presets/service,
 /turf/simulated/floor/bluegrid{
@@ -53555,7 +54158,7 @@
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/plating/under,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "lAL" = (
 /obj/structure/flora/ausbushes/genericbush,
 /turf/unsimulated/wall/jungle,
@@ -54912,7 +55515,7 @@
 	name = "Fence Lockdown";
 	opacity = 0
 	},
-/turf/simulated/floor/asteroid/dirt,
+/turf/simulated/floor/tiled/dark/gray_platform,
 /area/nadezhda/security/maingate)
 "lPQ" = (
 /obj/structure/closet/wall_mounted{
@@ -55177,6 +55780,16 @@
 	icon_state = "10,10"
 	},
 /area/shuttle/vasiliy_shuttle_area)
+"lSB" = (
+/obj/machinery/camera/network/gate{
+	network = list("Nadzedha Wall Colony")
+	},
+/obj/machinery/light/floor,
+/obj/effect/floor_decal/industrial/warningwhite{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/cargo,
+/area/nadezhda/security/maingate)
 "lSC" = (
 /obj/structure/table/steel_reinforced,
 /turf/simulated/floor/carpet/bcarpet,
@@ -55886,6 +56499,11 @@
 	},
 /turf/simulated/floor/tiled/white/gray_platform,
 /area/nadezhda/crew_quarters/podrooms)
+"mak" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark/golden,
+/area/nadezhda/crew_quarters/hydroponics/garden)
 "mam" = (
 /obj/effect/window_lwall_spawn/reinforced/polarized{
 	id = "Sick"
@@ -56477,6 +57095,14 @@
 /obj/structure/flora/small/bushb2,
 /turf/unsimulated/wall/jungle,
 /area/nadezhda/outside/forest)
+"mge" = (
+/obj/structure/flora/ausbushes/palebush,
+/turf/simulated/floor/asteroid/dirt/dark,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "mgn" = (
 /obj/item/modular_computer/console/preset/security/records{
 	dir = 1
@@ -56518,13 +57144,13 @@
 	},
 /area/nadezhda/rnd/server)
 "mgx" = (
-/obj/structure/catwalk,
-/obj/structure/railing,
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/simulated/floor/plating/under,
-/area/nadezhda/outside/inside_colony)
+/obj/random/spider_trap_burrowing/low_chance,
+/turf/simulated/floor/asteroid/grass,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "mgz" = (
 /turf/simulated/shuttle/wall/science{
 	icon_state = "4,14"
@@ -57457,6 +58083,13 @@
 /mob/living/simple_animal/hostile/bear/excelsior,
 /turf/simulated/floor/tiled/dark/brown_perforated,
 /area/nadezhda/maintenance/undergroundfloor1north)
+"mqu" = (
+/turf/simulated/floor/asteroid/grass,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "mqw" = (
 /turf/simulated/floor/plating/under,
 /area/nadezhda/engineering/atmos/surface)
@@ -57562,7 +58195,11 @@
 	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "mrz" = (
 /turf/simulated/shuttle/floor/science{
 	icon_state = "9,12"
@@ -57684,7 +58321,7 @@
 /obj/effect/floor_decal/industrial/botright/yellow,
 /obj/machinery/portable_atmospherics/canister/air,
 /turf/simulated/floor/tiled/dark/techfloor,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "mtj" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -57911,7 +58548,11 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/golden,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "mvB" = (
 /obj/structure/lattice,
 /turf/simulated/floor/fixed/hydrotile,
@@ -58427,7 +59068,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/golden,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "mBx" = (
 /obj/machinery/flasher{
 	dir = 1;
@@ -58546,7 +59191,11 @@
 	dir = 8
 	},
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "mCU" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -58794,7 +59443,7 @@
 "mFi" = (
 /obj/effect/shuttle_landmark/mercshuttle_colony,
 /turf/simulated/floor/tiled/dark/gray_platform,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "mFm" = (
 /obj/machinery/door/airlock/command{
 	name = "Conference Room";
@@ -58824,7 +59473,11 @@
 "mFq" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "mFt" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -59013,7 +59666,11 @@
 /obj/effect/floor_decal/industrial/warningwhite,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "mHg" = (
 /obj/machinery/disposal,
 /obj/effect/floor_decal/industrial/box/red,
@@ -59221,7 +59878,7 @@
 /obj/effect/floor_decal/industrial/danger,
 /obj/machinery/light/floor,
 /turf/simulated/floor/tiled/dark/gray_platform,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "mJn" = (
 /obj/item/device/radio/intercom/department/security{
 	pixel_x = 30
@@ -59833,6 +60490,16 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/nadezhda/maintenance/undergroundfloor1east)
+"mPH" = (
+/obj/machinery/light/floor{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "mPK" = (
 /obj/machinery/light{
 	dir = 1
@@ -59938,7 +60605,11 @@
 	},
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/simulated/floor/asteroid/dirt/dark,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "mRL" = (
 /turf/simulated/shuttle/wall/mining{
 	icon_state = "1,17"
@@ -60072,7 +60743,7 @@
 "mTb" = (
 /obj/structure/bed/chair/sofa/brown/corner,
 /turf/simulated/floor/wood,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "mTj" = (
 /obj/machinery/atmospherics/unary/vent_scrubber{
 	dir = 1
@@ -60716,6 +61387,21 @@
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/nadezhda/security/sechall)
+"mZF" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	pixel_y = 0
+	},
+/turf/simulated/floor/asteroid/grass,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "mZI" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -61062,12 +61748,17 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/maintenance/surface_maints_1)
 "ncn" = (
-/obj/effect/floor_decal/industrial/warningwhite{
-	dir = 8
+/obj/effect/floor_decal/industrial/loading/white{
+	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/dark/gray_platform,
-/area/nadezhda/outside/inside_colony)
+/obj/structure/closet/crate/trashcart{
+	old_lock_odds = -20
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/nadezhda/crew_quarters/hydroponics/garden)
 "nct" = (
 /obj/landmark/join/start/cyborg,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -61654,7 +62345,11 @@
 	pixel_y = 26
 	},
 /turf/simulated/floor/beach/sand,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "nju" = (
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/dark/bluecorner,
@@ -61670,7 +62365,7 @@
 "njI" = (
 /obj/machinery/recharge_station,
 /turf/simulated/floor/plating,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "njJ" = (
 /obj/machinery/light/small,
 /obj/machinery/air_sensor{
@@ -62175,6 +62870,17 @@
 /obj/random/credits/low_chance,
 /turf/simulated/floor/tiled/white/techfloor,
 /area/nadezhda/maintenance/undergroundfloor1west)
+"npq" = (
+/obj/machinery/light/floor{
+	pixel_y = 14;
+	pixel_x = -16
+	},
+/turf/simulated/floor/tiled/dark/golden,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "npr" = (
 /obj/effect/window_lwall_spawn/reinforced,
 /obj/machinery/door/blast/regular{
@@ -62666,7 +63372,7 @@
 "ntZ" = (
 /obj/machinery/vending/coffee,
 /turf/simulated/floor/wood,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "nug" = (
 /obj/structure/filingcabinet/chestdrawer,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
@@ -62676,6 +63382,17 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/techmaint,
 /area/nadezhda/dungeon/outside/abandoned_outpost)
+"nul" = (
+/obj/structure/catwalk,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/simulated/floor/plating/under,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "nuq" = (
 /obj/machinery/suit_storage_unit/rad_unit,
 /obj/effect/decal/cleanable/dirt,
@@ -63009,7 +63726,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "nyf" = (
 /obj/structure/table/gamblingtable,
 /obj/random/tool_upgrade/low_chance,
@@ -63358,7 +64075,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/plating/under,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "nBy" = (
 /obj/effect/decal/cleanable/blood/oil,
 /obj/effect/decal/cleanable/dirt,
@@ -63453,7 +64170,11 @@
 /obj/effect/floor_decal/industrial/road/straight4,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "nCn" = (
 /obj/structure/table/woodentable,
 /obj/item/hand_labeler,
@@ -63704,7 +64425,11 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "nEj" = (
 /obj/structure/sign/warning/armory/small,
 /turf/simulated/wall/r_wall,
@@ -63737,7 +64462,11 @@
 "nEt" = (
 /obj/structure/invislight,
 /turf/simulated/floor/asteroid/dirt/dust,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "nEz" = (
 /obj/machinery/light,
 /obj/structure/closet/wall_mounted{
@@ -64343,7 +65072,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating/under,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "nKG" = (
 /obj/machinery/floodlight,
 /obj/effect/decal/cleanable/dirt,
@@ -64915,7 +65648,7 @@
 "nRf" = (
 /obj/machinery/mech_recharger,
 /turf/simulated/floor/plating,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "nRh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
@@ -64972,7 +65705,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "nRZ" = (
 /obj/structure/table/marble,
 /obj/machinery/chemical_dispenser/soda,
@@ -65042,11 +65775,23 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating/under,
 /area/nadezhda/command/teleporter)
+"nSV" = (
+/obj/structure/flora/ausbushes/brflowers,
+/turf/simulated/floor/asteroid/grass,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "nSW" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/golden,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "nSY" = (
 /obj/structure/cable/yellow{
 	d1 = 4;
@@ -65594,7 +66339,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/pros/shuttle)
 "nYn" = (
 /obj/structure/table/woodentable,
 /obj/random/cloth/shoes/low_chance,
@@ -67403,7 +68148,11 @@
 "ori" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/simulated/floor/asteroid/dirt/dust,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "ork" = (
 /obj/structure/catwalk,
 /obj/structure/railing,
@@ -67826,7 +68575,7 @@
 	icon_state = "0-4"
 	},
 /turf/simulated/floor/plating/under,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "ovB" = (
 /obj/random/mob/termite_no_despawn,
 /obj/effect/decal/cleanable/dirt,
@@ -67862,7 +68611,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "owa" = (
 /obj/structure/table/woodentable,
 /obj/item/folder,
@@ -68065,6 +68818,17 @@
 	},
 /turf/simulated/floor/tiled/dark/bluecorner,
 /area/nadezhda/security/detectives_office)
+"oyw" = (
+/obj/machinery/light/floor{
+	pixel_y = -4;
+	pixel_x = 16
+	},
+/turf/simulated/floor/tiled/dark/golden,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "oyA" = (
 /obj/structure/grille{
 	desc = "Keeps the ruffians out. Hopefully.";
@@ -68197,6 +68961,14 @@
 	},
 /turf/simulated/floor/tiled/dark/techfloor_grid,
 /area/nadezhda/security/armory_blackshield)
+"ozK" = (
+/obj/machinery/camera/network/church,
+/turf/simulated/floor/asteroid/dirt,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "ozO" = (
 /obj/structure/closet/random_hostilemobs,
 /obj/effect/decal/cleanable/dirt,
@@ -68388,6 +69160,13 @@
 /obj/random/closet/low_chance,
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1north)
+"oBp" = (
+/obj/machinery/porta_turret/gate,
+/obj/effect/floor_decal/industrial/warningwhite{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/gray_platform,
+/area/nadezhda/security/maingate)
 "oBu" = (
 /turf/simulated/shuttle/wall/science{
 	icon_state = "4,10"
@@ -68845,6 +69624,16 @@
 	},
 /turf/simulated/floor/tiled/dark/techfloor_grid,
 /area/nadezhda/absolutism/bioreactor)
+"oHf" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/asteroid/dirt,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "oHg" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/structure/cable/green{
@@ -69071,7 +69860,11 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "oJC" = (
 /obj/machinery/light{
 	dir = 1
@@ -69661,7 +70454,7 @@
 	network = list("Nadzedha    Wall    Colony")
 	},
 /turf/simulated/floor/plating/under,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/pros/shuttle)
 "oPO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
@@ -69732,7 +70525,11 @@
 	},
 /obj/effect/floor_decal/industrial/road/straight3,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "oQA" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 4
@@ -70711,7 +71508,7 @@
 	id = "Colony Lockdown"
 	},
 /turf/simulated/floor/wood/wild3,
-/area/nadezhda/command/crematorium)
+/area/nadezhda/absolutism/storage)
 "paI" = (
 /obj/structure/cable/cyan{
 	d1 = 1;
@@ -70930,6 +71727,13 @@
 	},
 /turf/simulated/floor/tiled/white/gray_platform,
 /area/nadezhda/medical/sleeper)
+"pdi" = (
+/turf/simulated/floor/asteroid/grass,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "pdo" = (
 /obj/structure/girder,
 /turf/simulated/floor/plating/under,
@@ -71493,7 +72297,11 @@
 /obj/effect/floor_decal/industrial/box/red,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "pju" = (
 /obj/random/structures/low_chance,
 /obj/effect/decal/cleanable/dirt,
@@ -71720,6 +72528,12 @@
 	},
 /turf/simulated/floor/tiled/cafe,
 /area/nadezhda/crew_quarters/pool)
+"pmG" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/lavendergrass,
+/turf/simulated/floor/asteroid/dirt/dust,
+/area/nadezhda/outside/forest)
 "pmL" = (
 /obj/effect/decal/weldable/cracks,
 /obj/effect/decal/cleanable/dirt,
@@ -72070,7 +72884,11 @@
 	dir = 8
 	},
 /turf/simulated/floor/asteroid/grass,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "pqC" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/reagent_dispensers/fueltank/huge,
@@ -72126,6 +72944,9 @@
 	},
 /obj/effect/floor_decal/industrial/warningred{
 	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/cargo,
 /area/nadezhda/security/maingate)
@@ -72674,7 +73495,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/golden,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "pwo" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/random/flora/jungle_tree,
@@ -72824,12 +73649,12 @@
 	},
 /obj/machinery/light/floor,
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/pros/shuttle)
 "pyD" = (
 /obj/effect/floor_decal/industrial/warningred,
 /obj/machinery/light/floor,
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/pros/shuttle)
 "pyE" = (
 /obj/effect/decal/cleanable/generic,
 /turf/simulated/floor/asteroid/dirt/mud,
@@ -72880,7 +73705,7 @@
 "pyR" = (
 /obj/structure/bed/chair/sofa/brown/right,
 /turf/simulated/floor/wood,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "pzc" = (
 /obj/structure/table/standard,
 /obj/item/modular_computer/laptop/preset/records,
@@ -73397,7 +74222,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "pEw" = (
 /obj/structure/bed/psych{
 	desc = "It can be a bit noisy, but still serves well.";
@@ -73604,7 +74433,7 @@
 /area/nadezhda/rnd/xenobiology/xenoflora)
 "pHb" = (
 /turf/simulated/wall/r_wall,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "pHc" = (
 /turf/simulated/wall/r_wall,
 /area/nadezhda/security/maingate)
@@ -73725,7 +74554,7 @@
 	},
 /obj/effect/floor_decal/industrial/stand_clear,
 /turf/simulated/floor/tiled/dark/gray_perforated,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "pIE" = (
 /obj/effect/floor_decal/industrial/warningred{
 	dir = 8
@@ -73734,7 +74563,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/pros/shuttle)
 "pIF" = (
 /turf/simulated/floor/carpet,
 /area/nadezhda/absolutism/vectorrooms)
@@ -74862,7 +75691,11 @@
 /obj/effect/floor_decal/industrial/road/curvebig3,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "pTM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
@@ -75301,7 +76134,11 @@
 	},
 /obj/structure/flora/small/rock5,
 /turf/simulated/floor/asteroid/dirt/dark,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "pXQ" = (
 /obj/random/furniture/pottedplant{
 	pixel_y = 10
@@ -75810,6 +76647,14 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/nadezhda/engineering/atmos)
+"qdo" = (
+/obj/structure/table/bench/wooden,
+/turf/simulated/floor/asteroid/grass,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "qdq" = (
 /obj/effect/floor_decal/industrial/road{
 	dir = 1;
@@ -76452,7 +77297,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "qkC" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/random/mob/spiders/low_chance,
@@ -76585,7 +77430,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "qlW" = (
 /obj/item/modular_computer/console/preset/security/records{
 	dir = 8
@@ -76982,11 +77827,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/brown_perforated,
 /area/nadezhda/maintenance/undergroundfloor1north)
-"qqk" = (
-/obj/structure/flora/small/rock3,
-/obj/structure/invislight,
-/turf/simulated/floor/asteroid/dirt,
-/area/nadezhda/crew_quarters/hydroponics/garden)
 "qqw" = (
 /obj/structure/table/standard,
 /obj/random/pack/tech_loot,
@@ -77054,8 +77894,15 @@
 	dir = 1
 	},
 /obj/structure/flora/small/grassb4,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/asteroid/dirt/dark,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "qro" = (
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/carpet,
@@ -77326,7 +78173,11 @@
 	name = "Tree"
 	},
 /turf/simulated/floor/asteroid/grass,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "qtC" = (
 /obj/structure/catwalk,
 /obj/machinery/light/small{
@@ -77374,7 +78225,11 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "que" = (
 /obj/machinery/button/windowtint{
 	id = "VOffice";
@@ -77399,7 +78254,7 @@
 "quv" = (
 /obj/machinery/vending/cigarette,
 /turf/simulated/floor/wood,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "quC" = (
 /obj/structure/flora/ausbushes/reedbush,
 /obj/effect/decal/cleanable/dirt,
@@ -78033,7 +78888,11 @@
 /obj/structure/invislight,
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white/brown_perforated,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "qBD" = (
 /obj/structure/flora/ausbushes/fernybush,
 /turf/simulated/floor/asteroid/dirt/dark,
@@ -78581,7 +79440,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "qHa" = (
 /obj/effect/floor_decal/spline/wood,
 /obj/effect/window_lwall_spawn/reinforced,
@@ -79095,6 +79954,16 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/nadezhda/engineering/atmos)
+"qNc" = (
+/obj/machinery/light/floor{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/golden,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "qNn" = (
 /obj/machinery/power/hydroelectric_control,
 /obj/structure/cable/yellow,
@@ -80042,7 +80911,11 @@
 /obj/structure/closet/crate,
 /obj/machinery/camera/network/colony_surface,
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "qYJ" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/big/bush2,
@@ -81395,9 +82268,8 @@
 /turf/simulated/floor/tiled/steel/monofloor,
 /area/nadezhda/command/tcommsat/computer)
 "rnc" = (
-/obj/random/flora/low_chance,
-/turf/simulated/floor/asteroid/grass,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/turf/simulated/floor/wood/wild3,
+/area/nadezhda/absolutism/storage)
 "rns" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 1;
@@ -81590,7 +82462,11 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "rpo" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -82939,7 +83815,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "rFb" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/simulated/wall,
@@ -83031,6 +83911,15 @@
 	icon_state = "10,1"
 	},
 /area/shuttle/vasiliy_shuttle_area)
+"rFY" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/table/bench/wooden,
+/turf/simulated/floor/asteroid/grass,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "rGk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -83063,7 +83952,11 @@
 	dir = 1
 	},
 /turf/simulated/floor/asteroid/grass,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "rGH" = (
 /obj/machinery/gym/toughness,
 /turf/simulated/floor/tiled/white/gray_perforated,
@@ -83130,7 +84023,7 @@
 /obj/structure/catwalk,
 /obj/structure/railing,
 /turf/simulated/floor/plating/under,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "rHM" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -83475,7 +84368,11 @@
 	},
 /obj/structure/flora/bush,
 /turf/simulated/floor/asteroid/grass,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "rLI" = (
 /obj/structure/cable/cyan{
 	d1 = 4;
@@ -83877,7 +84774,11 @@
 "rPn" = (
 /obj/effect/floor_decal/industrial/road/straight4,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "rPB" = (
 /obj/machinery/atmospherics/unary/vent_pump,
 /turf/simulated/floor/tiled/steel,
@@ -84384,7 +85285,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/asteroid/grass,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "rVT" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/blast/shutters{
@@ -84475,7 +85380,11 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "rWL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -84858,7 +85767,11 @@
 /obj/machinery/camera/network/gate{
 	network = list("Nadzedha Wall Colony")
 	},
-/turf/simulated/floor/asteroid/dirt,
+/obj/machinery/light/floor,
+/obj/effect/floor_decal/industrial/warningwhite{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/gray_platform,
 /area/nadezhda/security/maingate)
 "rZO" = (
 /obj/effect/floor_decal/industrial/danger,
@@ -84898,7 +85811,11 @@
 "san" = (
 /obj/structure/low_wall,
 /turf/simulated/floor/plating,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "sao" = (
 /obj/structure/bed/chair/shuttle{
 	dir = 8
@@ -84980,10 +85897,6 @@
 "saK" = (
 /turf/simulated/wall/r_wall,
 /area/nadezhda/maintenance/undergroundfloor1east)
-"saN" = (
-/obj/structure/flora/ausbushes/grassybush,
-/turf/simulated/floor/asteroid/grass,
-/area/nadezhda/crew_quarters/hydroponics/garden)
 "sbc" = (
 /obj/machinery/light/small,
 /obj/machinery/light_switch{
@@ -86092,6 +87005,16 @@
 	},
 /turf/simulated/floor/tiled/dark/golden,
 /area/nadezhda/absolutism/vectorrooms)
+"snl" = (
+/obj/machinery/camera/network/gate{
+	network = list("Nadzedha Wall Colony")
+	},
+/obj/machinery/light/floor,
+/obj/effect/floor_decal/industrial/warningwhite{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/cargo,
+/area/nadezhda/security/maingate)
 "snm" = (
 /mob/living/simple_animal/hostile/bear,
 /turf/simulated/floor/asteroid/dirt/dust,
@@ -86135,7 +87058,7 @@
 	},
 /obj/effect/decal/mecha_wreckage/hoverpod,
 /turf/simulated/floor/tiled/dark/techfloor,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "snS" = (
 /obj/structure/grille{
 	desc = "Keeps the ruffians out. Hopefully.";
@@ -86364,7 +87287,7 @@
 	name = "Terminal Lounge"
 	},
 /turf/simulated/floor/plating,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "sqb" = (
 /obj/random/closet/low_chance,
 /obj/effect/decal/cleanable/dirt,
@@ -86493,7 +87416,11 @@
 "srr" = (
 /obj/effect/floor_decal/industrial/road/straight2,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "srv" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/asteroid/dirt,
@@ -86825,7 +87752,11 @@
 /obj/structure/largecrate,
 /obj/effect/floor_decal/industrial/box/red,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "suj" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/decal/cleanable/dirt,
@@ -86877,7 +87808,11 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating/under,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "suE" = (
 /obj/machinery/light{
 	dir = 4
@@ -86987,7 +87922,7 @@
 /area/nadezhda/crew_quarters/hydroponics/garden)
 "svG" = (
 /turf/simulated/floor/wood,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "svJ" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
@@ -87489,6 +88424,14 @@
 	},
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/nadezhda/medical/reception)
+"sAj" = (
+/obj/structure/flora/small/rock3,
+/turf/simulated/floor/asteroid/grass,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "sAn" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -87576,7 +88519,7 @@
 /obj/effect/floor_decal/industrial/danger,
 /obj/structure/sign/warning/docking_area/small2,
 /turf/simulated/floor/tiled/dark/gray_platform,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "sBf" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 10
@@ -88084,7 +89027,22 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/techfloor,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
+"sHv" = (
+/obj/effect/floor_decal/industrial/road/straight3,
+/obj/machinery/light/floor{
+	pixel_y = 4
+	},
+/turf/simulated/floor/rock/manmade/road,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "sHM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -88155,6 +89113,14 @@
 	},
 /turf/simulated/floor/tiled/white/techfloor,
 /area/nadezhda/maintenance/undergroundfloor1west)
+"sIA" = (
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/simulated/floor/asteroid/dirt/dark,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "sIC" = (
 /obj/structure/closet/l3closet,
 /obj/structure/cable/green,
@@ -88215,7 +89181,11 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "sJf" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -88312,7 +89282,7 @@
 	light_color = "#0892d0"
 	},
 /turf/simulated/floor/tiled/dark/techfloor,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "sKs" = (
 /obj/structure/disposalpipe/segment{
 	dir = 8;
@@ -88473,7 +89443,7 @@
 /area/nadezhda/security/armory_blackshield)
 "sLP" = (
 /turf/simulated/mineral,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "sLQ" = (
 /obj/random/closet_tech/low_chance,
 /obj/effect/decal/cleanable/dirt,
@@ -88678,7 +89648,7 @@
 /obj/structure/invislight,
 /obj/structure/invislight,
 /turf/simulated/floor/tiled/dark/techfloor,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "sOC" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction{
 	dir = 1;
@@ -88746,7 +89716,18 @@
 "sOP" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/golden,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
+"sOQ" = (
+/turf/simulated/floor/wood,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "sOZ" = (
 /obj/structure/bed/chair/office/light{
 	dir = 4
@@ -88806,7 +89787,11 @@
 	dir = 1
 	},
 /turf/simulated/floor/asteroid/dirt/dark,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "sPL" = (
 /obj/structure/table/rack/shelf,
 /obj/random/rations,
@@ -88954,6 +89939,19 @@
 	},
 /turf/simulated/floor/tiled/steel/orangecorner,
 /area/nadezhda/crew_quarters/toilet/public)
+"sRa" = (
+/obj/effect/floor_decal/industrial/warningwhite{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warningwhite{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/gray_platform,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "sRi" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -89202,7 +90200,7 @@
 	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/wood,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "sUr" = (
 /obj/effect/floor_decal/industrial/loading/white{
 	dir = 1
@@ -89576,7 +90574,11 @@
 "sYH" = (
 /obj/effect/floor_decal/industrial/hatch,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "sYJ" = (
 /turf/simulated/floor/rock,
 /area/nadezhda/maintenance/undergroundfloor1south)
@@ -89752,6 +90754,21 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/nadezhda/security/armory_blackshield)
+"tak" = (
+/obj/effect/floor_decal/industrial/road/straight1,
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor{
+	dir = 8
+	},
+/turf/simulated/floor/rock/manmade/road,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "tal" = (
 /turf/simulated/shuttle/wall/science{
 	icon_state = "6,17";
@@ -90017,7 +91034,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating/under,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "tdA" = (
 /obj/machinery/atmospherics/binary/pump/high_power/on{
 	target_pressure = 5000
@@ -90196,7 +91213,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/plating,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "tfv" = (
 /turf/simulated/wall/r_wall,
 /area/nadezhda/maintenance/substation/sec)
@@ -90585,7 +91602,7 @@
 /obj/structure/catwalk,
 /obj/machinery/atmospherics/unary/vent_scrubber,
 /turf/simulated/floor/plating/under,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "tkt" = (
 /obj/machinery/suit_storage_unit,
 /turf/simulated/floor/tiled/steel/orangecorner,
@@ -90952,7 +91969,11 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/techfloor,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "toT" = (
 /turf/simulated/wall/r_wall,
 /area/nadezhda/crew_quarters/toilet/public)
@@ -91735,6 +92756,9 @@
 	dir = 4
 	},
 /obj/structure/table/steel_reinforced,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/nadezhda/security/maingate)
 "txl" = (
@@ -91745,7 +92769,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/pros/shuttle)
 "txs" = (
 /obj/structure/table/gamblingtable,
 /turf/simulated/floor/carpet/sblucarpet,
@@ -91930,7 +92954,11 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "tzh" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 5
@@ -91998,7 +93026,11 @@
 "tzw" = (
 /obj/effect/floor_decal/industrial/road/curve2,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "tzB" = (
 /obj/structure/table/marble,
 /obj/machinery/door/blast/shutters/glass{
@@ -92029,7 +93061,11 @@
 "tzR" = (
 /obj/structure/flora/rock/variant2,
 /turf/simulated/floor/beach/sand,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "tzV" = (
 /obj/structure/table/marble,
 /obj/random/booze/low_chance,
@@ -93789,6 +94825,13 @@
 	name = "murky water"
 	},
 /area/nadezhda/maintenance/undergroundfloor1west)
+"tRa" = (
+/obj/structure/catwalk,
+/obj/structure/table/steel_reinforced,
+/obj/structure/railing,
+/obj/item/device/lighting/toggleable/lantern,
+/turf/simulated/floor/plating,
+/area/nadezhda/security/maingate)
 "tRb" = (
 /obj/structure/bed/chair/comfy/black,
 /turf/simulated/floor/wood,
@@ -93817,7 +94860,10 @@
 "tRG" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/machinery/porta_turret/gate,
-/turf/simulated/floor/asteroid/dirt,
+/obj/effect/floor_decal/industrial/warningwhite{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/nadezhda/security/maingate)
 "tRJ" = (
 /obj/machinery/disposal/deliveryChute{
@@ -94333,7 +95379,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "tXG" = (
 /obj/structure/table/marble,
 /turf/simulated/floor/tiled/cafe,
@@ -94649,7 +95699,11 @@
 "uaC" = (
 /obj/structure/flora/ausbushes/brflowers,
 /turf/simulated/floor/asteroid/dirt/dark,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "uaD" = (
 /obj/structure/table/glass,
 /turf/simulated/floor/carpet,
@@ -94832,6 +95886,25 @@
 /obj/structure/flora/big/bush3,
 /turf/unsimulated/wall/jungle,
 /area/nadezhda/outside/forest)
+"ucz" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/light/floor{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warningwhite{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/cargo,
+/area/nadezhda/security/maingate)
 "ucI" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable/green{
@@ -95153,7 +96226,11 @@
 	},
 /obj/structure/flora/small/rock3,
 /turf/simulated/floor/asteroid/grass,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "ufx" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/decal/cleanable/dirt,
@@ -95228,7 +96305,7 @@
 "ufP" = (
 /obj/structure/table/glass,
 /turf/simulated/floor/wood,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "ufR" = (
 /obj/random/closet_tech/low_chance,
 /turf/simulated/floor/tiled/techmaint,
@@ -95986,6 +97063,12 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/light/floor{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warningwhite{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark/cargo,
 /area/nadezhda/security/maingate)
 "uny" = (
@@ -96103,7 +97186,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/pros/shuttle)
 "uoM" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -96788,7 +97871,11 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "uyc" = (
 /obj/machinery/recharger,
 /obj/structure/table/marble,
@@ -97097,7 +98184,7 @@
 "uBB" = (
 /obj/effect/floor_decal/industrial/danger,
 /turf/simulated/floor/tiled/dark/gray_platform,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "uBE" = (
 /obj/machinery/atmospherics/unary/vent_scrubber{
 	dir = 8
@@ -97551,13 +98638,12 @@
 /turf/simulated/floor/reinforced,
 /area/shuttle/rocinante_shuttle_area)
 "uGY" = (
-/obj/structure/catwalk,
-/obj/structure/railing,
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/simulated/floor/plating/under,
-/area/nadezhda/outside/inside_colony)
+/turf/simulated/floor/asteroid/dirt,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "uHe" = (
 /obj/structure/disposalpipe/segment,
 /turf/simulated/wall/r_wall,
@@ -97672,7 +98758,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "uIj" = (
 /turf/simulated/wall/church_reinforced,
 /area/nadezhda/outside/inside_colony)
@@ -98359,7 +99449,11 @@
 "uNM" = (
 /obj/effect/floor_decal/industrial/road/straight3,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "uNO" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -99425,6 +100519,14 @@
 /obj/item/storage/box/donkpockets,
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/rnd/rbreakroom)
+"uYa" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/machinery/porta_turret/gate,
+/obj/effect/floor_decal/industrial/warningwhite{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/cargo,
+/area/nadezhda/security/maingate)
 "uYb" = (
 /obj/machinery/hologram/holopad,
 /obj/structure/cable/green{
@@ -99578,6 +100680,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white/brown_perforated,
 /area/nadezhda/maintenance/undergroundfloor1east)
+"uZS" = (
+/obj/effect/floor_decal/industrial/road/straight1,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/rock/manmade/road,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road"
+	})
 "vac" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -99812,7 +100922,7 @@
 /area/nadezhda/rnd/lab)
 "vcL" = (
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "vcP" = (
 /obj/structure/table/woodentable,
 /obj/item/paper_bin{
@@ -99864,7 +100974,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating/under,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "vdt" = (
 /obj/structure/low_wall,
 /obj/machinery/door/blast/shutters/glass{
@@ -100281,6 +101391,9 @@
 	pixel_x = 33;
 	pixel_y = -11
 	},
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/nadezhda/crew_quarters/hydroponics/garden)
 "vit" = (
@@ -100607,7 +101720,11 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "vln" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/floor_decal/industrial/road/curve2,
@@ -100616,7 +101733,11 @@
 	pixel_y = 15
 	},
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "vlr" = (
 /obj/structure/table/rack/shelf,
 /obj/random/lowkeyrandom/low_chance,
@@ -100856,7 +101977,7 @@
 	light_color = "#0892d0"
 	},
 /turf/simulated/floor/wood,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "vnM" = (
 /obj/machinery/door/holy{
 	name = "Church"
@@ -100952,6 +102073,15 @@
 /obj/structure/flora/small/busha1,
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/crew_quarters/bar)
+"voF" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor,
+/turf/simulated/floor/tiled/dark/golden,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "voK" = (
 /obj/effect/floor_decal/industrial/hatch,
 /obj/machinery/door/airlock/maintenance_common,
@@ -101336,7 +102466,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/dark/gray_platform,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "vtu" = (
 /obj/machinery/light/small,
 /obj/effect/decal/cleanable/dirt,
@@ -101367,7 +102497,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/techfloor,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "vtG" = (
 /obj/machinery/light,
 /obj/machinery/atmospherics/unary/vent_scrubber{
@@ -101471,7 +102601,7 @@
 	},
 /obj/landmark/join/start/foreigner,
 /turf/simulated/floor/wood,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "vuO" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -101935,7 +103065,11 @@
 /obj/structure/disposalpipe/segment,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "vAn" = (
 /obj/machinery/light{
 	dir = 8
@@ -102026,7 +103160,7 @@
 "vBb" = (
 /obj/effect/floor_decal/industrial/botright/yellow,
 /turf/simulated/floor/tiled/dark/techfloor,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "vBk" = (
 /obj/random/junk/nondense,
 /obj/effect/decal/cleanable/dirt,
@@ -102124,7 +103258,11 @@
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/simulated/floor/asteroid/dirt/dark,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "vCq" = (
 /obj/machinery/camera/network/security{
 	dir = 8
@@ -102168,6 +103306,17 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/hallway/surface/section1)
+"vCS" = (
+/obj/effect/floor_decal/industrial/road/straight1,
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/rock/manmade/road,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road"
+	})
 "vCV" = (
 /obj/random/closet/low_chance,
 /turf/simulated/floor/tiled/techmaint,
@@ -102455,9 +103604,12 @@
 /turf/simulated/floor/beach/water/shallow,
 /area/nadezhda/outside/pond)
 "vFX" = (
-/obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/asteroid/grass,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/turf/simulated/wall/church_reinforced,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "vGa" = (
 /obj/effect/floor_decal/industrial/loading/white{
 	dir = 4
@@ -102536,7 +103688,11 @@
 /obj/effect/floor_decal/industrial/road/straight2,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "vGW" = (
 /obj/machinery/smelter/cargo_t2_parts{
 	name = "primary smelter";
@@ -102646,7 +103802,11 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/gray_platform,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "vHW" = (
 /obj/machinery/computer/prisoner{
 	dir = 4
@@ -103232,7 +104392,11 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "vNF" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
@@ -103474,7 +104638,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/pros/shuttle)
 "vRc" = (
 /obj/structure/sign/department/eva,
 /turf/simulated/wall/r_wall,
@@ -103608,7 +104772,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "vRS" = (
 /turf/simulated/shuttle/wall/mining{
 	icon_state = "10,18"
@@ -103913,7 +105077,11 @@
 	},
 /obj/structure/flora/ausbushes/leafybush,
 /turf/simulated/floor/asteroid/dirt/dark,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "vUC" = (
 /turf/simulated/shuttle/wall/science{
 	icon_state = "7,16"
@@ -104481,7 +105649,11 @@
 	},
 /obj/structure/multiz/stairs/enter/bottom,
 /turf/simulated/floor/tiled/dark/techfloor,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "wat" = (
 /obj/machinery/light,
 /obj/structure/closet/wall_mounted/firecloset{
@@ -104953,7 +106125,11 @@
 "wfy" = (
 /obj/effect/floor_decal/industrial/road/curve3,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "wfB" = (
 /obj/structure/cyberplant,
 /obj/effect/spider/stickyweb,
@@ -105454,6 +106630,17 @@
 /obj/structure/flora/small/rock4,
 /turf/simulated/floor/asteroid/grass,
 /area/nadezhda/hallway/main/stairwell)
+"wli" = (
+/obj/effect/floor_decal/industrial/road/straight1,
+/obj/machinery/light/floor{
+	dir = 8
+	},
+/turf/simulated/floor/rock/manmade/road,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "wll" = (
 /obj/structure/catwalk,
 /obj/structure/cable/cyan{
@@ -105700,6 +106887,14 @@
 "wnL" = (
 /turf/simulated/floor/tiled/white/brown_perforated,
 /area/nadezhda/medical/genetics)
+"wnT" = (
+/obj/structure/flora/ausbushes/ywflowers,
+/turf/simulated/floor/asteroid/dirt/dark,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "wnV" = (
 /obj/structure/table/woodentable,
 /obj/random/booze/low_chance,
@@ -105926,7 +107121,11 @@
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/plating/under,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "wpD" = (
 /obj/structure/catwalk,
 /obj/structure/cable/cyan{
@@ -106833,7 +108032,11 @@
 "wzm" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/simulated/floor/asteroid/dirt/dark,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "wzs" = (
 /obj/machinery/light,
 /obj/machinery/atmospherics/unary/vent_pump{
@@ -106960,7 +108163,11 @@
 	},
 /obj/structure/flora/ausbushes/stalkybush,
 /turf/simulated/floor/asteroid/dirt/dark,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "wAq" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/big/bush3,
@@ -106994,12 +108201,16 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/golden,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "wBj" = (
 /obj/structure/catwalk,
 /obj/machinery/camera/network/colony_surface,
 /turf/simulated/floor/plating/under,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "wBD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -107267,7 +108478,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/golden,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "wEh" = (
 /obj/machinery/light{
 	dir = 1
@@ -107427,7 +108642,7 @@
 /area/nadezhda/crew_quarters/bar)
 "wGp" = (
 /turf/unsimulated/mineral,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "wGt" = (
 /obj/effect/decal/cleanable/rubble,
 /turf/simulated/floor/asteroid/dirt/dust,
@@ -107436,7 +108651,11 @@
 /obj/machinery/camera/network/church,
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/simulated/floor/asteroid/grass,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "wGz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -107928,7 +109147,11 @@
 /obj/structure/flora/big/rocks3,
 /obj/random/flora/small_jungle_tree,
 /turf/simulated/floor/asteroid/grass,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "wLS" = (
 /obj/structure/window/reinforced/crescent{
 	dir = 4
@@ -108035,7 +109258,7 @@
 "wNa" = (
 /obj/structure/boulder,
 /turf/simulated/floor/rock,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "wNb" = (
 /obj/structure/catwalk,
 /obj/machinery/light/small{
@@ -108241,7 +109464,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/techfloor,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "wPA" = (
 /obj/structure/closet/acolyte,
 /obj/machinery/alarm{
@@ -108588,7 +109815,11 @@
 /obj/structure/railing/grey,
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/simulated/floor/asteroid/dirt/dark,
-/area/nadezhda/crew_quarters/hydroponics/garden)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "wUb" = (
 /obj/machinery/door/airlock/sandstone{
 	name = "Dormitory"
@@ -108979,7 +110210,7 @@
 "wXJ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/techfloor,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "wXK" = (
 /obj/structure/table/rack,
 /obj/machinery/light/small,
@@ -109318,7 +110549,11 @@
 /obj/effect/floor_decal/industrial/road/curvebig1,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "xbU" = (
 /obj/effect/window_lwall_spawn/reinforced,
 /turf/simulated/floor/plating,
@@ -109466,13 +110701,21 @@
 /obj/machinery/microwave/burnbarrel,
 /turf/simulated/floor/plating/under,
 /area/nadezhda/maintenance/undergroundfloor1west)
+"xeK" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/simulated/floor/asteroid/grass,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "xeM" = (
 /obj/machinery/light{
 	dir = 4;
 	light_color = "#0892d0"
 	},
 /turf/simulated/floor/wood,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "xeO" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2;
@@ -109488,7 +110731,11 @@
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/table/bench/wooden,
 /turf/simulated/floor/asteroid/grass,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "xfc" = (
 /turf/simulated/shuttle/wall/science{
 	icon_state = "9,16"
@@ -109848,7 +111095,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/plating,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "xiR" = (
 /obj/effect/overlay/water,
 /obj/effect/overlay/water/top,
@@ -109867,6 +111114,16 @@
 "xja" = (
 /turf/simulated/wall/r_wall,
 /area/nadezhda/hallway/surface/section1)
+"xjc" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/asteroid/dirt/dust,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "xjf" = (
 /obj/structure/flora/small/bushc1,
 /obj/random/flora/small_jungle_tree,
@@ -110560,6 +111817,16 @@
 /obj/item/contraband/poster/placed/generic/safety_internals,
 /turf/simulated/wall/r_wall,
 /area/nadezhda/command/tcommsat/computer)
+"xqc" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/simulated/floor/asteroid/dirt,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Garden";
+	icon_state = "erisgreen"
+	})
 "xqt" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -110807,7 +112074,7 @@
 "xtc" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/plating/under,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "xtg" = (
 /obj/structure/table/rack/shelf,
 /obj/machinery/door/window/westright{
@@ -110873,7 +112140,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/gray_perforated,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "xtV" = (
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -111103,7 +112370,11 @@
 /obj/effect/floor_decal/industrial/box/red,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "xwp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -111832,6 +113103,9 @@
 	tag = "icon-railing0 (WEST)"
 	},
 /obj/structure/table/steel_reinforced,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/nadezhda/security/maingate)
 "xCG" = (
@@ -111854,7 +113128,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/plating/under,
-/area/nadezhda/pros/shuttle)
+/area/nadezhda/outside/pros/shuttle)
 "xCX" = (
 /obj/effect/decal/cleanable/cobweb2,
 /obj/effect/decal/cleanable/dirt,
@@ -112024,7 +113298,11 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "xEQ" = (
 /obj/machinery/door/blast/regular/open{
 	id = "Colony Lockdown"
@@ -112341,6 +113619,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood,
 /area/nadezhda/crew_quarters/dorm1)
+"xHZ" = (
+/obj/effect/overlay/water,
+/turf/simulated/floor/beach/water/jungle,
+/area/nadezhda/outside/forest)
 "xIh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -114002,7 +115284,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/rock/manmade/road,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "xZX" = (
 /obj/machinery/air_sensor{
 	frequency = 1441;
@@ -114222,7 +115508,11 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/cargo,
-/area/nadezhda/outside/inside_colony)
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "ycC" = (
 /obj/structure/sign/warning/nosmoking/small,
 /turf/simulated/wall/r_wall,
@@ -114280,6 +115570,14 @@
 /obj/machinery/recharge_station,
 /turf/simulated/floor/tiled/steel,
 /area/nadezhda/crew_quarters/toilet/public)
+"ydx" = (
+/obj/structure/flora/ausbushes/brflowers,
+/turf/simulated/floor/asteroid/grass,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "ydA" = (
 /obj/structure/flora/church_tree{
 	icon_state = "red_tree"
@@ -114436,6 +115734,14 @@
 /obj/random/lathe_disk/advanced,
 /turf/simulated/floor/rock,
 /area/nadezhda/maintenance/undergroundfloor1north)
+"yfi" = (
+/obj/structure/table/bench/wooden,
+/turf/simulated/floor/asteroid/dirt,
+/area/nadezhda/outside/inside_colony{
+	requires_power = 0;
+	name = "Colony Meadow Road";
+	icon_state = "erisgreen"
+	})
 "yfk" = (
 /obj/machinery/light{
 	dir = 1
@@ -202331,7 +203637,7 @@ mYG
 aYN
 pHc
 qIj
-rZN
+dlR
 jbb
 cxU
 cxU
@@ -202940,7 +204246,7 @@ snS
 dsj
 jbb
 cxU
-tfW
+mMF
 tfW
 tfW
 tfW
@@ -203142,8 +204448,8 @@ snS
 dsj
 jbb
 cxU
-tfW
-tfW
+mMF
+gLl
 tfW
 tfW
 tfW
@@ -203344,8 +204650,8 @@ snS
 dsj
 jbb
 cxU
-tfW
-tfW
+gLl
+mMF
 tfW
 tfW
 olX
@@ -203546,8 +204852,8 @@ snS
 dsj
 jbb
 cxU
-tfW
-tfW
+gLl
+mMF
 tfW
 tfW
 fqz
@@ -203748,8 +205054,8 @@ snS
 dsj
 jbb
 cxU
-tfW
-tfW
+gLl
+mMF
 tfW
 tfW
 fqz
@@ -203950,8 +205256,8 @@ snS
 dsj
 jbb
 cxU
-tfW
-tfW
+gLl
+cxU
 fqz
 fqz
 bKm
@@ -204152,7 +205458,7 @@ snS
 dsj
 jbb
 cxU
-tfW
+mMF
 tfW
 fqz
 fqz
@@ -204354,7 +205660,7 @@ snS
 dsj
 jbb
 cxU
-tfW
+mMF
 tfW
 fqz
 fqz
@@ -204758,8 +206064,8 @@ snS
 mZt
 jbb
 cxU
-tfW
-tfW
+gLl
+mMF
 tfW
 tfW
 tfW
@@ -204957,11 +206263,11 @@ pBO
 pBO
 pHc
 qIj
-bNm
+iwT
 jbb
 cxU
-tfW
-tfW
+gLl
+gLl
 tfW
 tfW
 tfW
@@ -205159,11 +206465,11 @@ pBO
 aYN
 pHc
 qIj
-rZN
+dlR
 jbb
 cxU
-tfW
-tfW
+gLl
+gLl
 olX
 tfW
 bKm
@@ -205365,7 +206671,7 @@ dsj
 jbb
 cxU
 tym
-tfW
+mMF
 tfW
 tfW
 tfW
@@ -205566,8 +206872,8 @@ snS
 oTb
 jbb
 cxU
-tfW
-tfW
+mMF
+cxU
 tfW
 tfW
 kEV
@@ -205768,8 +207074,8 @@ snS
 dsj
 jbb
 cxU
-tfW
-tfW
+gLl
+cxU
 tfW
 fqz
 fqz
@@ -205970,8 +207276,8 @@ snS
 dsj
 jbb
 cxU
-tfW
-tfW
+gLl
+gLl
 tfW
 bKm
 tfW
@@ -206172,8 +207478,8 @@ snS
 dsj
 jbb
 cxU
-cxU
-tfW
+gLl
+mMF
 tfW
 tfW
 tfW
@@ -207785,10 +209091,10 @@ wvy
 pBO
 pHc
 qIj
-bNm
+iwT
 jbb
 cxU
-tfW
+cxU
 tfW
 tFz
 eUV
@@ -207987,11 +209293,11 @@ kvg
 aYN
 pHc
 qIj
-rZN
+dlR
 jbb
 cxU
-tfW
-tfW
+mMF
+cxU
 tfW
 tfW
 tfW
@@ -208192,8 +209498,8 @@ ebF
 dsj
 jbb
 cxU
-tfW
-tfW
+gLl
+mMF
 tfW
 tfW
 eUV
@@ -208394,7 +209700,7 @@ snS
 dsj
 jbb
 cxU
-tfW
+gLl
 cXA
 tfW
 tfW
@@ -208596,8 +209902,8 @@ snS
 dsj
 jbb
 cxU
-tfW
-tfW
+mMF
+mMF
 tfW
 tfW
 pCD
@@ -208798,7 +210104,7 @@ snS
 dsj
 jbb
 cxU
-tfW
+cxU
 pCD
 pCD
 tfW
@@ -209000,8 +210306,8 @@ snS
 dsj
 jbb
 cxU
-tfW
-tfW
+gLl
+mMF
 tfW
 tfW
 tfW
@@ -209202,8 +210508,8 @@ snS
 dsj
 jbb
 cxU
-tfW
-tfW
+gLl
+gLl
 tfW
 tfW
 tfW
@@ -209404,8 +210710,8 @@ snS
 dsj
 jbb
 cxU
-tfW
-tfW
+gLl
+mMF
 tfW
 mHv
 tfW
@@ -209606,8 +210912,8 @@ snS
 dsj
 jbb
 cxU
-tfW
-tfW
+gLl
+cxU
 tfW
 tfW
 tfW
@@ -209808,7 +211114,7 @@ snS
 dsj
 jbb
 cxU
-tfW
+gLl
 tfW
 kEV
 tfW
@@ -210010,7 +211316,7 @@ snS
 dsj
 jbb
 cxU
-tfW
+mMF
 tfW
 aff
 kEV
@@ -210180,8 +211486,8 @@ ffp
 vcL
 vcL
 vcL
-pNi
-pNi
+bit
+bit
 mFq
 uNM
 krM
@@ -210212,7 +211518,7 @@ snS
 dsj
 jbb
 cxU
-tfW
+cxU
 tfW
 aff
 pCD
@@ -210385,7 +211691,7 @@ njI
 gOY
 wfy
 mFq
-cMQ
+edU
 krM
 hJm
 edn
@@ -210780,13 +212086,13 @@ wPv
 iaf
 fJf
 aIV
-rJT
-rJT
-rJT
-rJT
+nul
+nul
+nul
+nul
 eJy
 ovS
-pNi
+bit
 rPn
 mFq
 tzg
@@ -210815,7 +212121,7 @@ vmy
 kvg
 pHc
 qIj
-bNm
+oBp
 jbb
 cxU
 tfW
@@ -210975,7 +212281,7 @@ hIn
 bRK
 cgO
 cgO
-cgO
+ldK
 ine
 ine
 ine
@@ -210987,7 +212293,7 @@ cgO
 cgO
 cgO
 cgO
-ine
+wli
 ine
 knV
 mFq
@@ -211175,17 +212481,17 @@ qJJ
 toQ
 hIn
 bRK
-pNi
-pNi
+bit
+bit
 mFq
 mFq
 mFq
 mFq
 mFq
 mFq
-pNi
-pNi
-pNi
+bit
+bit
+bit
 mFq
 mFq
 mFq
@@ -211379,19 +212685,19 @@ hIn
 bRK
 srr
 gAS
-vGK
-vGK
-vGK
-vGK
-srr
-srr
-vGK
-vGK
-vGK
+gQi
 vGK
 vGK
 vGK
 srr
+srr
+vGK
+vGK
+vGK
+vGK
+vGK
+vGK
+iDD
 srr
 kNv
 mFq
@@ -211596,7 +212902,7 @@ rIK
 hcX
 rIK
 nCk
-pNi
+bit
 cMQ
 mrk
 hJm
@@ -211799,7 +213105,7 @@ mzy
 rIK
 nCk
 mFq
-cMQ
+edU
 vSZ
 hJm
 edn
@@ -211985,18 +213291,18 @@ fYz
 dfI
 xja
 spF
-aQq
-aQq
-aQq
-aQq
-aQq
-aQq
-aQq
-aQq
-aQq
-aQq
-aQq
-uGY
+tdw
+tdw
+tdw
+tdw
+tdw
+tdw
+tdw
+tdw
+tdw
+tdw
+tdw
+vdj
 xGe
 pFV
 nCk
@@ -212187,8 +213493,8 @@ fYz
 hqT
 xja
 spF
-hJm
-hJm
+xtc
+xtc
 dUo
 vRb
 pIE
@@ -212196,9 +213502,9 @@ vRb
 pIE
 vRb
 laB
-hJm
-hJm
-frR
+xtc
+xtc
+rHw
 rIK
 rIK
 nCk
@@ -212389,8 +213695,8 @@ fYz
 sJv
 xja
 spF
-hJm
-hJm
+xtc
+xtc
 nYl
 htM
 cIE
@@ -212398,9 +213704,9 @@ mEf
 kxQ
 cHI
 gEv
-hJm
-hJm
-mgx
+xtc
+xtc
+cyl
 rIK
 pFV
 rPn
@@ -212591,8 +213897,8 @@ fYz
 dfI
 xja
 xja
-hJm
-hJm
+xtc
+xtc
 nYl
 xHD
 pWa
@@ -212600,12 +213906,12 @@ uFH
 ccY
 stX
 gEv
-hJm
-hJm
+xtc
+xtc
 iHH
 pNi
 pNi
-pNi
+bit
 mFq
 cMQ
 fFO
@@ -212793,8 +214099,8 @@ fYz
 dfI
 gmI
 fYE
-hJm
-hJm
+xtc
+xtc
 pyA
 rFh
 gEs
@@ -212802,12 +214108,12 @@ uFH
 uvX
 gZR
 pyD
-hJm
-hJm
+xtc
+xtc
 iHH
 pNi
 pNi
-pNi
+bit
 mFq
 cMQ
 pfy
@@ -212995,8 +214301,8 @@ fYz
 dfI
 gmI
 fYE
-hJm
-hJm
+xtc
+xtc
 nYl
 fIV
 wiC
@@ -213004,8 +214310,8 @@ sno
 brO
 mRW
 gEv
-hJm
-hJm
+xtc
+xtc
 fxG
 fFO
 oqj
@@ -213016,15 +214322,15 @@ ine
 ine
 ine
 ine
+wli
 ine
 ine
 ine
 ine
 ine
-ine
-pNi
-pNi
-ine
+bit
+bit
+wli
 dtW
 cXf
 rvv
@@ -213197,8 +214503,8 @@ nlc
 xja
 xja
 xja
-gAL
-hJm
+wBj
+xtc
 nYl
 ogo
 hXl
@@ -213206,9 +214512,9 @@ gsw
 iOD
 fId
 gEv
-hJm
-hJm
-frR
+xtc
+xtc
+rHw
 fFO
 fLu
 nCk
@@ -213218,6 +214524,7 @@ srr
 srr
 hgY
 hgY
+iDD
 srr
 srr
 srr
@@ -213225,8 +214532,7 @@ srr
 srr
 srr
 srr
-srr
-srr
+iDD
 gkx
 hKK
 hKK
@@ -213399,8 +214705,8 @@ fYz
 dfI
 gmI
 fYE
-hJm
-hJm
+xtc
+xtc
 txl
 tUk
 hXl
@@ -213408,9 +214714,9 @@ uFH
 oDv
 qzj
 bVG
-hJm
-hJm
-mgx
+xtc
+xtc
+cyl
 cLp
 oXb
 nCk
@@ -213441,7 +214747,7 @@ mGJ
 bJt
 hVl
 qHh
-unx
+ucz
 kGO
 pHc
 dsj
@@ -213601,8 +214907,8 @@ fYz
 dfI
 gmI
 fYE
-hJm
-hJm
+xtc
+xtc
 nYl
 fIV
 hXl
@@ -213610,14 +214916,14 @@ uFH
 bpg
 mRW
 gEv
-hJm
-hJm
+xtc
+xtc
 iHH
 pNi
 pNi
 mFq
 mFq
-uNM
+sHv
 cwC
 eTX
 qdq
@@ -213803,8 +215109,8 @@ fYz
 dfI
 xja
 xja
-hJm
-hJm
+xtc
+xtc
 pyA
 rZq
 fMu
@@ -213812,13 +215118,13 @@ uFH
 fMu
 lQr
 pyD
-hJm
-hJm
+xtc
+xtc
 iHH
 pNi
 pNi
 mFq
-pNi
+bit
 uNM
 cwC
 swX
@@ -214005,8 +215311,8 @@ vkg
 gSx
 xja
 aYl
-hJm
-hJm
+xtc
+xtc
 nYl
 bgF
 lPh
@@ -214014,13 +215320,13 @@ jWo
 tGn
 wVb
 gEv
-hJm
-hJm
+xtc
+xtc
 fxG
 fFO
 mzy
 nCk
-pNi
+bit
 cMQ
 fPm
 jQa
@@ -214207,8 +215513,8 @@ vkg
 waS
 xja
 spF
-hJm
-hJm
+xtc
+xtc
 nYl
 ogh
 sdg
@@ -214216,13 +215522,13 @@ cZu
 una
 vma
 gEv
-hJm
-hJm
-frR
+xtc
+xtc
+rHw
 hpX
 rIK
 nCk
-pNi
+bit
 cMQ
 fPm
 pWV
@@ -214254,7 +215560,7 @@ bbZ
 iVo
 pIH
 pvU
-jlS
+tRa
 dis
 dsj
 sQo
@@ -214409,8 +215715,8 @@ vkg
 azs
 xja
 spF
-hJm
-hJm
+xtc
+xtc
 uoI
 ekv
 fgU
@@ -214418,13 +215724,13 @@ fgU
 fgU
 ekv
 eyp
-hJm
-hJm
-frR
+xtc
+xtc
+rHw
 sOq
 rIK
 nCk
-pNi
+bit
 cMQ
 cwC
 pWV
@@ -214626,8 +215932,8 @@ kYP
 rIK
 cXf
 nCk
-pNi
-cMQ
+bit
+edU
 cwC
 pWV
 tWw
@@ -214828,7 +216134,7 @@ vbq
 pfy
 bXS
 nCk
-pNi
+bit
 cMQ
 cwC
 cwC
@@ -215030,7 +216336,7 @@ ckQ
 csA
 xzV
 nCk
-pNi
+bit
 cMQ
 pxl
 pxl
@@ -215430,7 +216736,7 @@ bwu
 htu
 mHf
 rpk
-rpk
+tak
 rpk
 rpk
 eyY
@@ -215438,6 +216744,7 @@ mCS
 vln
 rpk
 rpk
+tak
 rpk
 rpk
 rpk
@@ -215445,17 +216752,16 @@ rpk
 rpk
 rpk
 rpk
+tak
 rpk
 rpk
 rpk
 rpk
 rpk
 rpk
-rpk
-rpk
-rpk
-rpk
-cgO
+tak
+vCS
+uZS
 vJo
 uLL
 pkA
@@ -216036,18 +217342,7 @@ uIg
 aWG
 mHf
 vGK
-vGK
-vGK
-vGK
-vlm
-vGK
-vGK
-vGK
-vGK
-vGK
-vGK
-vGK
-vGK
+gQi
 vGK
 vGK
 vlm
@@ -216055,11 +217350,22 @@ vGK
 vGK
 vGK
 vGK
+gQi
 vGK
 vGK
 vGK
 vGK
 vGK
+vlm
+vGK
+gQi
+vGK
+vGK
+vGK
+vGK
+vGK
+vGK
+gQi
 sIV
 vGK
 hzA
@@ -216238,22 +217544,22 @@ rEQ
 aWG
 eeO
 itr
-cwC
-ncn
-ncn
-cwC
-cwC
-cwC
-pvI
-pFV
-pFV
-pFV
-cwC
-cwC
+fxj
+ijk
+ijk
+fxj
+fxj
+fxj
+kKa
+mqu
+mqu
+mqu
+fxj
+fxj
 eCT
 eCT
-cwC
-cwC
+fxj
+fxj
 san
 san
 san
@@ -216262,7 +217568,7 @@ san
 san
 san
 san
-cwC
+fxj
 sYH
 peL
 pHc
@@ -216436,35 +217742,35 @@ mGT
 xja
 xja
 gej
-ovs
+dKB
 cum
 gej
-aPg
-cwC
+dlk
+fxj
 nEh
 vHU
 ufr
-rIK
-tnk
-tnk
-pFV
+xeK
+qdo
+qdo
+mqu
 xfb
 xfb
-hcX
+sAj
 wLP
-bXS
+geE
 ori
 rLD
 cyF
-fFO
-xUV
-uKJ
-xJo
-xJo
+luF
+sIA
+mge
+wnT
+wnT
 ijO
-xUV
-uKJ
-cwC
+sIA
+mge
+fxj
 sYH
 vEp
 pHc
@@ -216642,10 +217948,10 @@ hJm
 lgB
 hJm
 kCq
-xUV
-ksX
-ksX
-ssS
+sIA
+bNm
+bNm
+fQI
 uit
 uit
 uit
@@ -216844,10 +218150,10 @@ hJm
 lgB
 iyJ
 aqO
-xJo
-ksX
-ksX
-xPA
+wnT
+bNm
+bNm
+yfi
 uit
 uit
 uit
@@ -217047,9 +218353,9 @@ paF
 hkI
 cpY
 cAa
-ksX
-ksX
-idr
+bNm
+oyw
+rFY
 uit
 uit
 uit
@@ -217249,9 +218555,9 @@ hJm
 iyJ
 gUw
 wzm
-ksX
-ksX
-xPA
+npq
+bNm
+yfi
 uit
 uit
 uit
@@ -217451,9 +218757,9 @@ drA
 drA
 aPC
 uaC
-ksX
-ksX
-gcR
+bNm
+bNm
+cQQ
 crr
 uit
 uit
@@ -217653,9 +218959,9 @@ ipN
 aNy
 ckO
 gMn
-ksX
-ksX
-fLu
+bNm
+bNm
+aFL
 rIK
 tnk
 tnk
@@ -217672,7 +218978,7 @@ rIK
 fLu
 spa
 hcX
-pFV
+spa
 pMh
 mGO
 rIK
@@ -217854,10 +219160,10 @@ afI
 yjF
 ckO
 xJo
-ckO
-ksX
-ksX
-pFV
+fxj
+ijk
+ijk
+fxj
 hcX
 gcR
 hcX
@@ -218055,11 +219361,11 @@ aEh
 paR
 ckO
 pFV
-pFV
-pFV
-ksX
-ksX
-fFO
+rIK
+mqu
+jWQ
+jWQ
+luF
 pFV
 fFO
 fFO
@@ -218258,10 +219564,10 @@ xUV
 iMi
 igM
 pFV
-pFV
-ksX
-ksX
-pfy
+xeK
+kwI
+jWQ
+ydx
 cLp
 soq
 svK
@@ -218460,10 +219766,10 @@ qBD
 pFV
 pfy
 fLu
-pFV
-ksX
-ksX
-mGO
+fxj
+vHU
+gxX
+fxj
 pFV
 rIK
 pFV
@@ -218662,10 +219968,10 @@ cNm
 igM
 igM
 mGO
-pFV
-ksX
-ksX
-pFV
+san
+bNm
+bNm
+san
 fLu
 mGO
 pFV
@@ -218864,11 +220170,11 @@ ckO
 pfy
 fFO
 lPo
-pFV
-ksX
-ksX
+san
+bNm
+bNm
+san
 fFO
-pFV
 rIK
 igM
 pFV
@@ -219066,17 +220372,17 @@ ckO
 iTI
 fLu
 vbq
-pfy
-ksX
-ksX
+san
+bNm
+oyw
+san
 fFO
-pFV
 pFV
 pFV
 pFV
 mGO
 pMh
-pFV
+spa
 pFV
 fFO
 fFO
@@ -219268,13 +220574,13 @@ uKJ
 pFV
 pFV
 fFO
-pFV
-ksX
-ksX
+san
+npq
+bNm
+san
 bXS
-rIK
 fLu
-pFV
+rIK
 pMh
 pFV
 pFV
@@ -219470,11 +220776,11 @@ oPF
 qPl
 mGO
 pFV
-pFV
-ksX
-ksX
-fFO
-pFV
+san
+bNm
+bNm
+san
+rIK
 pFV
 pFV
 mGO
@@ -219491,7 +220797,7 @@ oNP
 fLu
 mGO
 fFO
-pFV
+spa
 pFV
 pFV
 pFV
@@ -219501,7 +220807,7 @@ nZe
 kvg
 pHc
 qAZ
-bNm
+jVm
 oCe
 cxU
 eJk
@@ -219671,11 +220977,11 @@ igM
 pFV
 pFV
 lPo
-pFV
-pFV
-ksX
-ksX
-fFO
+rIK
+san
+bNm
+bNm
+san
 pFV
 vrW
 pFV
@@ -219703,7 +221009,7 @@ mYG
 gAa
 pHc
 qAZ
-rZN
+lSB
 gDO
 cxU
 eJk
@@ -219867,18 +221173,18 @@ rIK
 hcX
 sOP
 mvt
-sOP
+voF
 dHz
 vbq
 rIK
 igM
 vbq
 pfy
-igM
-ksX
-ksX
-tlE
-rIK
+fxj
+bNm
+bNm
+fxj
+fLu
 pFV
 pFV
 pMh
@@ -220056,15 +221362,15 @@ cwC
 pFV
 svB
 ckO
-kvx
-kvx
-kvx
-kvx
-kvx
-kvx
-kvx
-kvx
-kvx
+sOQ
+sOQ
+sOQ
+sOQ
+mPH
+sOQ
+sOQ
+sOQ
+sOQ
 vXi
 svB
 bSK
@@ -220076,10 +221382,10 @@ pFV
 igM
 fLu
 pFV
-igM
-ksX
-ksX
-mGO
+mqu
+bNm
+oyw
+jsD
 hcX
 pFV
 pFV
@@ -220258,15 +221564,15 @@ ckO
 ckO
 ckO
 ckO
-kvx
-uit
-uit
-uit
-uit
-uit
-uit
-uit
-kvx
+sOQ
+hdW
+hdW
+hdW
+hdW
+hdW
+hdW
+hdW
+sOQ
 ckO
 ckO
 sOP
@@ -220278,10 +221584,10 @@ pFV
 pfy
 tyN
 pFV
-pfy
-ksX
-ksX
-fFO
+mqu
+npq
+bNm
+luF
 pFV
 xGe
 vrW
@@ -220297,7 +221603,7 @@ rIK
 pFV
 dce
 pFV
-pFV
+spa
 pFV
 pFV
 pFV
@@ -220460,30 +221766,30 @@ kvx
 ydA
 kvx
 ckO
-kvx
-uit
-uit
+sOQ
+hdW
+hdW
 tzR
-uit
-uit
+hdW
+hdW
 kXv
-uit
-kvx
-kvx
-kvx
+hdW
+sOQ
+sOQ
+mPH
 sOP
 mvt
 sOP
-pFV
-igM
-pFV
-igM
-igM
-pFV
-igM
-ksX
-ksX
-fFO
+fxj
+sRa
+san
+san
+san
+sRa
+fxj
+bNm
+bNm
+fxj
 pFV
 pFV
 pFV
@@ -220662,33 +221968,33 @@ uit
 kfz
 kvx
 kvx
-kvx
-uit
-uit
+sOQ
+hdW
+hdW
 njt
-uit
-uit
-uit
-uit
-kvx
-kvx
-kvx
+hdW
+hdW
+hdW
+hdW
+sOQ
+sOQ
+sOQ
 sOP
 mvt
 sOP
-ksX
-ksX
-ksX
-ksX
-ksX
-ksX
-ksX
-ksX
-ksX
-bXS
+bNm
+bNm
+bNm
+kzZ
+bNm
+bNm
+bNm
+bNm
+bNm
+luF
 mGO
 pfy
-pFV
+rIK
 mGO
 pFV
 pfy
@@ -220864,31 +222170,31 @@ uit
 uit
 kvx
 kvx
-kvx
-uit
-uit
-uit
-uit
-uit
-uit
-uit
-kvx
-kvx
-kvx
+sOQ
+hdW
+hdW
+hdW
+hdW
+hdW
+hdW
+hdW
+sOQ
+sOQ
+sOQ
 sOP
 mvt
 sOP
-ksX
-ksX
-ksX
-ksX
-ksX
-ksX
-ksX
-ksX
-ksX
+bNm
+bNm
+bNm
+qNc
+bNm
+bNm
+bNm
+bNm
+bNm
+geE
 bXS
-pFV
 fLu
 pfy
 pFV
@@ -221066,30 +222372,30 @@ kvx
 kvx
 kvx
 ckO
-kvx
-uit
-uit
+sOQ
+hdW
+hdW
 kXv
-uit
-uit
+hdW
+hdW
 aQK
-uit
-kvx
-kvx
-kvx
+hdW
+sOQ
+sOQ
+fBO
 sOP
 mvt
 sOP
-pFV
-pFV
-igM
-pFV
-igM
-pFV
-vtx
-bXS
-bXS
-fFO
+fxj
+sRa
+san
+san
+san
+sRa
+fxj
+luF
+geE
+fxj
 pFV
 tBq
 pFV
@@ -221268,15 +222574,15 @@ ckO
 ckO
 ckO
 ckO
-kvx
-uit
-uit
-uit
-uit
-uit
-uit
-uit
-kvx
+sOQ
+hdW
+hdW
+hdW
+hdW
+hdW
+hdW
+hdW
+sOQ
 ckO
 ckO
 sOP
@@ -221289,7 +222595,7 @@ dHz
 vbq
 rIK
 rIK
-bXS
+tuw
 bXS
 fFO
 pFV
@@ -221470,15 +222776,15 @@ pDs
 pFV
 rIK
 ckO
-kvx
-kvx
-kvx
-kvx
-kvx
-kvx
-kvx
-kvx
-kvx
+sOQ
+sOQ
+sOQ
+sOQ
+fBO
+sOQ
+sOQ
+sOQ
+sOQ
 ckO
 rIK
 sOP
@@ -221511,7 +222817,7 @@ fLu
 pFV
 igM
 pFV
-pFV
+pvI
 gcR
 igM
 pFV
@@ -221685,7 +222991,7 @@ mzy
 pFV
 sOP
 mvt
-sOP
+dOE
 pFV
 dGV
 tyN
@@ -221911,15 +223217,15 @@ fFO
 bXS
 bXS
 fFO
-pFV
+cUB
 mGO
 vbq
 pfy
-pFV
-mGO
+fFO
+fFO
 eCL
 pMh
-pFV
+fFO
 dHz
 nZe
 kvg
@@ -222329,7 +223635,7 @@ kvg
 gAa
 pHc
 qAZ
-rZN
+snl
 oCe
 cxU
 eJk
@@ -222506,23 +223812,23 @@ pFV
 mGO
 bXS
 bXS
-pFV
-pFV
-pFV
+cUB
+fFO
+fFO
 pfy
 mGO
 pFV
-pFV
+hcX
 pFV
 pfy
-pFV
-pFV
-pFV
-pFV
-pFV
-qPl
+fFO
+fFO
 rIK
 pFV
+hcX
+pFV
+rIK
+fFO
 niP
 igM
 pFV
@@ -222711,21 +224017,21 @@ bXS
 pFV
 pFV
 pFV
-igM
+brP
+bXS
+oNP
+oNP
+oNP
+oNP
+bXS
+oNP
+oNP
+oNP
 pFV
-pFV
-pFV
-pFV
-igM
-pFV
-pFV
-pFV
-mGO
-pFV
-pFV
-myK
-rIK
-pvI
+oNP
+oNP
+oNP
+oNP
 igM
 pFV
 pFV
@@ -222746,11 +224052,11 @@ vaP
 wAq
 vaP
 vaP
-vaP
-vaP
-vaP
 tfW
-vaP
+tfW
+tfW
+tfW
+tfW
 tfW
 tfW
 tfW
@@ -222897,37 +224203,37 @@ wZK
 bSt
 vjP
 pLW
-vjP
-dgA
+sOP
+gQo
 dgA
 deY
 deY
-dgA
-dgA
+gQo
+dKC
 kYf
 dgA
 gTl
-bSt
-mfN
-mfN
-bSt
+gQo
+bXS
+bXS
 pFV
 pFV
 pFV
 pFV
+bXS
+bXS
 pFV
+oNP
+oNP
 pFV
+oNP
+oNP
+bXS
 pFV
-pFV
-pFV
-pFV
-pFV
-pFV
-pFV
-pFV
+oNP
 rIK
 rIK
-pFV
+bXS
 pFV
 pFV
 pfy
@@ -223104,28 +224410,28 @@ mfN
 mfN
 mfN
 mfN
-mfN
+cli
 mfN
 mfN
 mfN
 eOg
-rGw
-mfN
-mfN
-bSt
+mZF
+bXS
+fFO
 pFV
 pFV
 pFV
 pFV
 pFV
-qPl
 pFV
 pFV
 pFV
+pFV
+hcX
 igM
 pFV
 pFV
-pFV
+qPl
 mGO
 pFV
 pFV
@@ -223301,7 +224607,7 @@ aBx
 wWt
 vjP
 pLW
-vjP
+dOE
 mfN
 nfL
 wot
@@ -223312,20 +224618,20 @@ wot
 mfN
 ccK
 rGw
-mfN
-mfN
-bSt
+bXS
+fFO
+pFV
 pfy
 pFV
 pFV
 pFV
-pFV
+qPl
 igM
 pFV
 pFV
 pFV
 pFV
-pFV
+rIK
 pFV
 pFV
 pfy
@@ -223514,9 +224820,9 @@ mfN
 mfN
 mfN
 rGw
-mfN
-mfN
-bSt
+bXS
+bXS
+fFO
 pFV
 pFV
 pfy
@@ -223716,9 +225022,9 @@ wot
 mfN
 jev
 rGw
-mfN
-mfN
-bSt
+bXS
+bXS
+pFV
 pFV
 pFV
 pFV
@@ -223918,9 +225224,9 @@ mfN
 mfN
 iCA
 rGw
-mfN
-mfN
-vFX
+bXS
+bXS
+mGO
 eNU
 pFV
 pFV
@@ -224120,9 +225426,9 @@ wot
 mfN
 yaE
 rGw
-mfN
-mfN
-saN
+bXS
+bXS
+pMh
 pFV
 qPl
 pFV
@@ -224322,9 +225628,9 @@ mfN
 mfN
 fqu
 rGw
-mfN
-mfN
-bSt
+bXS
+bXS
+pFV
 pFV
 pFV
 pFV
@@ -224524,9 +225830,9 @@ wot
 mfN
 utC
 rGw
-mfN
-mfN
-bSt
+fFO
+bXS
+pFV
 pFV
 pFV
 pFV
@@ -224725,10 +226031,10 @@ mfN
 mfN
 mfN
 mfN
-rGw
-mfN
-mfN
-bSt
+xqc
+fFO
+bXS
+fFO
 pMh
 pMh
 pFV
@@ -224917,7 +226223,7 @@ aBx
 svD
 vjP
 pLW
-vjP
+dOE
 mfN
 nfL
 wot
@@ -224928,9 +226234,9 @@ wot
 mfN
 ccK
 rGw
-mfN
-mfN
-bSt
+bXS
+bXS
+fFO
 pFV
 pFV
 pFV
@@ -225124,15 +226430,15 @@ mfN
 mfN
 mfN
 mfN
-mfN
+xjc
 mfN
 mfN
 mfN
 eOg
-rGw
-mfN
-mfN
-bSt
+dXa
+bXS
+bXS
+pFV
 pFV
 pFV
 pFV
@@ -225157,7 +226463,7 @@ hys
 kvg
 pHc
 qAZ
-tRG
+uYa
 oCe
 cxU
 cxU
@@ -225322,7 +226628,7 @@ bSt
 vjP
 pLW
 vjP
-mfN
+gQo
 hom
 hom
 pqm
@@ -225331,10 +226637,10 @@ jec
 pqm
 pqm
 gdA
-bSt
-mfN
-mfN
-rnc
+gQo
+uGY
+bXS
+qPl
 pFV
 pFV
 fLu
@@ -225359,11 +226665,11 @@ hys
 gAa
 pHc
 qAZ
-gkJ
+lSB
 gDO
 cxU
 cxU
-eUV
+lth
 eUV
 eUV
 eUV
@@ -225524,23 +226830,23 @@ vjP
 vjP
 pLW
 vjP
-mfN
-fDy
-bSt
-bSt
-fZN
+gAL
+uGY
+pdi
+pdi
+mgx
 qtB
-bSt
-dyf
-bSt
-bSt
-mfN
-mfN
-bSt
-vFX
-bSt
-bSt
-bSt
+pdi
+nSV
+pdi
+pdi
+uGY
+fFO
+pFV
+mGO
+pFV
+pFV
+pFV
 pFV
 dHz
 vbq
@@ -225564,8 +226870,8 @@ gSS
 dsj
 oCe
 cxU
-cxU
-tfW
+mMF
+mMF
 tfW
 tfW
 eUV
@@ -225726,23 +227032,23 @@ vjP
 vjP
 pLW
 vjP
-mfN
-mfN
-mfN
-mfN
-mfN
-mfN
-mfN
-bSt
-bSt
-bSt
-mfN
-mfN
-bSt
-bSt
-bSt
-dyf
-bSt
+gAL
+gAL
+gAL
+gAL
+gAL
+gAL
+gAL
+pdi
+pdi
+pdi
+uGY
+bXS
+pFV
+pFV
+pFV
+pfy
+pFV
 pFV
 pFV
 fLu
@@ -225765,9 +227071,9 @@ oGj
 onw
 dsj
 oCe
-cxU
-cxU
-tfW
+mMF
+gLl
+mMF
 tfW
 tfW
 tfW
@@ -225928,23 +227234,23 @@ vjP
 vjP
 pLW
 vjP
-mfN
-mfN
-mfN
-mfN
-mfN
-mfN
-mfN
-mfN
-vFX
-bSt
-mfN
-mfN
-bSt
-ccn
-dyf
-bSt
-bSt
+gAL
+gAL
+gAL
+gAL
+gAL
+gAL
+gAL
+gAL
+knd
+pdi
+gAL
+bXS
+pFV
+dHz
+pfy
+pFV
+pFV
 pFV
 igM
 tyN
@@ -225968,7 +227274,7 @@ onw
 dsj
 oCe
 cxU
-cxU
+gLl
 tfW
 tfW
 tfW
@@ -226130,23 +227436,23 @@ bSt
 uPB
 skN
 bSt
-dyf
+nSV
 kXU
-bSt
-vFX
-bSt
-mfN
-mfN
-mfN
-mfN
-bSt
-mfN
-mfN
-jaF
-bSt
-vFX
-bSt
-rnc
+pdi
+knd
+pdi
+gAL
+gAL
+gAL
+gAL
+pdi
+gAL
+bXS
+fyM
+pFV
+mGO
+pFV
+qPl
 mGO
 pFV
 igM
@@ -226169,9 +227475,9 @@ oGj
 onw
 dsj
 oCe
-cxU
-cxU
-tfW
+lth
+gLl
+mMF
 tfW
 tfW
 tfW
@@ -226332,23 +227638,23 @@ swN
 jEX
 cmB
 yjc
-yjc
-yjc
-yjc
-yjc
-yjc
-dyf
-mfN
-mfN
-mfN
-mfN
-mfN
-mfN
-bSt
-bSt
-bSt
-bSt
-bSt
+swN
+swN
+swN
+swN
+swN
+nSV
+gAL
+gAL
+gAL
+gAL
+gAL
+bXS
+pFV
+pFV
+pFV
+pFV
+pFV
 pMh
 pFV
 vbq
@@ -226373,7 +227679,7 @@ dsj
 oCe
 cxU
 cxU
-tfW
+mMF
 tfW
 tfW
 tfW
@@ -226539,18 +227845,18 @@ swN
 swN
 swN
 swN
-yjc
-dyf
-mfN
-mfN
-mfN
-mfN
-mfN
+swN
+nSV
+gAL
+gAL
+gAL
+gAL
+bXS
 aUQ
-bSt
-bSt
-bSt
-bSt
+pFV
+pFV
+pFV
+pFV
 pfy
 dHz
 tlE
@@ -226574,7 +227880,7 @@ onw
 dsj
 oCe
 cxU
-cxU
+gLl
 cxU
 tfW
 tfW
@@ -226742,17 +228048,17 @@ qtt
 adu
 adu
 swN
-yjc
-bSt
-mfN
-mfN
-fDy
-fDy
-fDy
-fDy
-fDy
-fDy
-bSt
+swN
+fuZ
+gAL
+gAL
+uGY
+uGY
+uGY
+uGY
+uGY
+jka
+pdi
 pFV
 pFV
 pFV
@@ -226944,17 +228250,17 @@ kYj
 kYj
 vNO
 swN
-yjc
+swN
 wGv
-mfN
-mfN
+gAL
+gAL
 gIY
 vCo
 pXH
 hIM
 hjy
-dKC
-fDy
+vFX
+oHf
 pFV
 pMh
 pFV
@@ -227146,17 +228452,17 @@ rDM
 dmH
 roq
 swN
-yjc
-bSt
-mfN
-mfN
+swN
+pdi
+gAL
+gAL
 eow
 gSR
 gSR
 gSR
 gSR
 vUx
-fDy
+uGY
 pFV
 qPl
 mGO
@@ -227181,7 +228487,7 @@ xIG
 oCe
 cxU
 cxU
-cxU
+mMF
 mkR
 cpv
 mmJ
@@ -227350,15 +228656,15 @@ dIT
 bcI
 tiz
 nEt
-mfN
-mfN
-mfN
+gAL
+gAL
+gAL
 mls
 gSR
 gSR
 gSR
 wAo
-fDy
+uGY
 pFV
 pFV
 pFV
@@ -227382,7 +228688,7 @@ cuv
 dsj
 oCe
 cxU
-cxU
+mMF
 cxU
 vOm
 cpv
@@ -227552,15 +228858,15 @@ chX
 bcI
 tiz
 nEt
-mfN
-mfN
-mfN
+gAL
+gAL
+gAL
 uVj
 gSR
 gSR
 gSR
 mRx
-fDy
+uGY
 pFV
 pFV
 pFV
@@ -227584,9 +228890,9 @@ onw
 dsj
 oCe
 cxU
-mkR
-mkR
-sJN
+jtr
+cxU
+pmG
 vaP
 tfW
 tfW
@@ -227752,25 +229058,25 @@ swN
 xTc
 bCU
 swN
-yjc
-bSt
-mfN
-mfN
+swN
+pdi
+gAL
+gAL
 wTG
 gSR
 gSR
 gSR
 gSR
 qrl
-fDy
-fDy
-fDy
-fDy
-fDy
-fDy
-bSt
-bSt
-pFV
+uGY
+uGY
+uGY
+jka
+uGY
+uGY
+pdi
+fXD
+pdi
 mGO
 pFV
 igM
@@ -227954,11 +229260,11 @@ tfm
 tfm
 tfm
 tfm
-pQs
-qqk
-mfN
-mfN
-qqk
+uFe
+imN
+gAL
+gAL
+imN
 pQs
 gSR
 gSR
@@ -227967,12 +229273,12 @@ yjc
 fnK
 tQk
 fnK
-fnK
+yjc
 fnK
 fnK
 fnK
 yjc
-pFV
+fuZ
 pMh
 pFV
 vbq
@@ -227985,7 +229291,7 @@ dsj
 gAa
 pHc
 qAZ
-rZN
+snl
 gDO
 cxU
 cxU
@@ -228156,11 +229462,11 @@ lPQ
 jbx
 tfm
 xvS
-pQs
-pQs
+uFe
+uFe
 paH
 paH
-pQs
+uFe
 pQs
 nWc
 biP
@@ -228174,7 +229480,7 @@ qTf
 kOv
 kOv
 uBR
-pFV
+pdi
 pFV
 pFV
 igM
@@ -228187,7 +229493,7 @@ dsj
 kvg
 pHc
 qAZ
-bNm
+enL
 oCe
 cxU
 cxU
@@ -228358,11 +229664,11 @@ xZa
 pOo
 tfm
 xvS
-tfm
+uFe
 jol
-xZa
+rnc
 iUj
-tfm
+uFe
 pQs
 pfU
 qiq
@@ -228376,7 +229682,7 @@ vjP
 vjP
 gsH
 rnV
-fFO
+uGY
 pFV
 pFV
 pFV
@@ -228560,13 +229866,13 @@ mAu
 gxF
 tfm
 quF
-tfm
+uFe
 iXY
-xZa
-xZa
-tfm
+rnc
+rnc
+uFe
 pQs
-otN
+ncn
 oYp
 iPV
 vjP
@@ -228578,7 +229884,7 @@ vjP
 vjP
 gsH
 uBR
-fFO
+uGY
 pFV
 pMh
 pFV
@@ -228595,7 +229901,7 @@ dsj
 oCe
 cxU
 tfW
-tfW
+mMF
 tfW
 olX
 tfW
@@ -228762,11 +230068,11 @@ oBl
 tfm
 tfm
 tfm
-tfm
-tfm
+uFe
+uFe
 paH
 paH
-tfm
+uFe
 pQs
 qTf
 oYp
@@ -228780,7 +230086,7 @@ iPV
 vjP
 aSZ
 uBR
-fFO
+uGY
 pFV
 dHz
 vbq
@@ -228796,8 +230102,8 @@ onw
 dsj
 oCe
 cxU
-tfW
-tfW
+mMF
+xHZ
 olX
 vaP
 tfW
@@ -228982,7 +230288,7 @@ iPV
 vjP
 kOv
 uBR
-fFO
+uGY
 pFV
 pFV
 fLu
@@ -228998,8 +230304,8 @@ onw
 dsj
 oCe
 cxU
-tfW
-tfW
+mMF
+xHZ
 vaP
 tfW
 tfW
@@ -229183,8 +230489,8 @@ kYT
 iPV
 vjP
 qxG
-uBR
-fFO
+yjc
+ozK
 pFV
 igM
 tyN
@@ -229200,8 +230506,8 @@ onw
 dsj
 oCe
 cxU
-tfW
-tfW
+xHZ
+xHZ
 olX
 vaP
 vaP
@@ -229385,8 +230691,8 @@ qyM
 vjP
 vjP
 aSZ
-uBR
-fFO
+yjc
+oHf
 mGO
 pFV
 igM
@@ -229402,8 +230708,8 @@ onw
 dsj
 oCe
 cxU
-tfW
-tfW
+xHZ
+mMF
 tfW
 olX
 vaP
@@ -229588,7 +230894,7 @@ vjP
 vjP
 qTf
 uBR
-fFO
+uGY
 pMh
 pFV
 vbq
@@ -229790,7 +231096,7 @@ vjP
 vjP
 sTl
 uBR
-fFO
+uGY
 pFV
 pFV
 tlE
@@ -229805,8 +231111,8 @@ sqf
 onw
 dsj
 oCe
-cxU
-tfW
+fXd
+mMF
 tfW
 tfW
 tfW
@@ -229992,7 +231298,7 @@ vjP
 vjP
 dfF
 uBR
-fFO
+uGY
 pFV
 pFV
 pFV
@@ -230008,7 +231314,7 @@ onw
 dsj
 oCe
 cxU
-cxU
+mMF
 tfW
 tfW
 tfW
@@ -230194,7 +231500,7 @@ vMw
 dfF
 dfF
 uBR
-pFV
+pdi
 pFV
 pMh
 pFV
@@ -230396,7 +231702,7 @@ yjc
 yjc
 yjc
 yjc
-fFO
+oHf
 pFV
 qPl
 pFV
@@ -230598,7 +231904,7 @@ gBD
 sDV
 bXm
 spF
-spF
+cin
 pFV
 pFV
 pFV
@@ -230611,7 +231917,7 @@ bFA
 pHc
 sqf
 hmj
-dsj
+iDy
 nxk
 cxU
 cxU
@@ -230992,7 +232298,7 @@ cvL
 gvK
 pLW
 oYp
-vjP
+mak
 yjc
 gBD
 gBD
