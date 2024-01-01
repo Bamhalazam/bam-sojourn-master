@@ -258,39 +258,10 @@
 
 //Outside natural areas
 
-var/night = FALSE
-var/shift_start_time = 0
-var/hour = 0
-// taking the hour and minute from time.dm
-
-/proc/Determine_Time_Of_Day() // global proc that sets night to true or false
-    if(hour <= 7 || hour >= 20)
-        night = TRUE
-    return night
-
-/area/nadezhda/outside/proc/Enable_Area_Dynamic_Lighting() //works most likely
-	Determine_Time_Of_Day()
-	if(night == TRUE)
-		dynamic_lighting = TRUE
-	else
-		dynamic_lighting = FALSE
-	return dynamic_lighting
-
-/area/nadezhda/outside/New() //also seems to work
-	area_light_color = COLOR_LIGHTING_ORANGE_BRIGHT
-	Enable_Area_Dynamic_Lighting()
-	.=..()
-
-/*
-proc/Determine_Time_Of_Day() // global proc that sets night to true or false
-	get_round_start_time()
-	if(round_start_time <= "07:00" || round_start_time >= "20:00")
-		night = TRUE
-	else
-		night = FALSE
-	return night
-*/
-
+/area/nadezhda/outside/New() //Part of the day/night cycle system
+    area_light_color = COLOR_LIGHTING_ORANGE_BRIGHT
+    apply_dynamic_lighting()
+    .=..()
 
 /area/nadezhda/outside // YES THIS ONE RIGHT HERE IS MAKING ME MAD!!!
 	area_light_color = COLOR_LIGHTING_DEFAULT_BRIGHT
@@ -1290,13 +1261,6 @@ area/nadezhda/medical/medbaymeeting
 
 //Security
 
-/area/nadezhda/security/proc/Enable_Area_Dynamic_Lighting()
-	if(night)
-		dynamic_lighting = TRUE
-	else
-		dynamic_lighting = FALSE
-	return dynamic_lighting
-
 /area/nadezhda/security
 	name = "Security"
 	icon_state = "security"
@@ -1373,11 +1337,7 @@ area/nadezhda/medical/medbaymeeting
 	name = "\improper Security Checkpoint"
 	icon_state = "checkpoint1"
 
-/area/nadezhda/security/maingate/New() //required for the day/night code to work
-	Enable_Area_Dynamic_Lighting()
-	.=..()
-
-/area/nadezhda/security/maingate
+/area/nadezhda/outside/security/maingate
 	name = "\improper Security - Main Gate"
 	icon_state = "security"
 	forced_ambience = list('sound/ambience/meadowamb1.ogg', 'sound/ambience/meadowamb2.ogg', 'sound/ambience/meadowamb3.ogg', 'sound/ambience/meadowamb4.ogg')

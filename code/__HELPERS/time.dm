@@ -168,3 +168,9 @@ var/global/rollovercheck_last_timeofday = 0
 	while (world.tick_usage > min(TICK_LIMIT_TO_RUN, Master.current_ticklimit))
 
 #undef DELTA_CALC
+
+proc/determine_night() // proc that sets night to true or false
+	if(roundstart_hour <= 19 || roundstart_hour >= 20)
+		return TRUE
+	else
+		return FALSE

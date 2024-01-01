@@ -105,3 +105,11 @@
 		return pick(turfs)
 	else return null
 
+/area/proc/apply_dynamic_lighting()
+	determine_night()
+	if(determine_night())
+		dynamic_lighting = TRUE
+	else
+		dynamic_lighting = FALSE
+	return dynamic_lighting
+

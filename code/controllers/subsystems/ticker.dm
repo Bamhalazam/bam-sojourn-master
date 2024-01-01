@@ -73,6 +73,7 @@ SUBSYSTEM_DEF(ticker)
 		global_hud.blurry,
 		global_hud.vimpaired,
 		global_hud.darkMask,
+		global_hud.noise,
 		global_hud.nvg,
 		global_hud.thermal,
 		global_hud.meson,
