@@ -14,7 +14,7 @@
 #define INVISIBILITY_OBSERVER             60
 #define INVISIBILITY_EYE		          61
 
-#define SEE_INVISIBLE_NOLIGHTING          15
+#define SEE_INVISIBLE_NOLIGHTING          15 //the DEFINE that NVGs and thermals use
 #define SEE_INVISIBLE_LIVING              25
 #define SEE_INVISIBLE_ANGEL               30
 #define SEE_INVISIBLE_LEVEL_ONE           35

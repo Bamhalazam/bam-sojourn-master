@@ -868,7 +868,6 @@ All Canmove setting in this proc is temporary. This var should not be set from h
 	set hidden = 1
 	return facedir(client.client_dir(SOUTH))
 
-
 //This might need a rename but it should replace the can this mob use things check
 /mob/proc/IsAdvancedToolUser()
 	return 0

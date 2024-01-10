@@ -1230,7 +1230,6 @@ obj/screen/fire/DEADelize()
 	plane = HUD_PLANE
 	var/global/image/blind_icon = image('icons/mob/screen1_full.dmi', "blackimageoverlay")
 
-
 /obj/screen/damageoverlay/Process()
 	update_icon()
 
@@ -1314,6 +1313,8 @@ obj/screen/fire/DEADelize()
 /obj/screen/damageoverlay/proc/UpdateVisionState()
 	if(parentmob.eye_blind)
 		underlays |= list(blind_icon)
+
+
 //	else
 //		underlays.Remove(list(blind_icon))
 //	world << underlays.len

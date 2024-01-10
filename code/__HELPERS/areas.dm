@@ -105,7 +105,7 @@
 		return pick(turfs)
 	else return null
 
-/area/proc/apply_dynamic_lighting()
+/area/proc/apply_dynamic_lighting() //part of day/night cycle
 	determine_night()
 	if(determine_night())
 		dynamic_lighting = TRUE
@@ -113,3 +113,9 @@
 		dynamic_lighting = FALSE
 	return dynamic_lighting
 
+/atom/proc/in_forest(atom as mob, var/mob/living/carbon/human/H)
+	var/area/A = get_area(src)
+	if (A && A.is_forest && determine_night())
+		return TRUE
+	else
+		return FALSE

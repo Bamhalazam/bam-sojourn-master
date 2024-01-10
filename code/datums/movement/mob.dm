@@ -342,3 +342,5 @@
 		return
 
 	return prob(50) ? GLOB.cw_dir[.] : GLOB.ccw_dir[.]
+
+

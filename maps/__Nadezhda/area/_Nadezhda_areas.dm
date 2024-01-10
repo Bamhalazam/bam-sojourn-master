@@ -259,9 +259,8 @@
 //Outside natural areas
 
 /area/nadezhda/outside/New() //Part of the day/night cycle system
-    area_light_color = COLOR_LIGHTING_ORANGE_BRIGHT
-    apply_dynamic_lighting()
-    .=..()
+	apply_dynamic_lighting()
+	.=..()
 
 /area/nadezhda/outside // YES THIS ONE RIGHT HERE IS MAKING ME MAD!!!
 	area_light_color = COLOR_LIGHTING_DEFAULT_BRIGHT
@@ -269,6 +268,7 @@
 	flags = null
 	is_dungeon_lootable = TRUE
 	ship_area = FALSE
+	area_light_color = COLOR_LIGHTING_ORANGE_BRIGHT
 
 /area/nadezhda/outside/one_star
 	name = "Greyson Positronic Base"
@@ -281,33 +281,42 @@
 /area/nadezhda/outside/one_star/fo_outside
 	name = "Greyson Grounds"
 	icon_state = "erisgreen"
-	dynamic_lighting = FALSE
 
 /area/nadezhda/outside/one_star/fo_internal
 	name = "Greyson Field Offices"
 	icon_state = "erisblue"
+	dynamic_lighting = TRUE
 
 /area/nadezhda/outside/dcave
 	name = "Tengolo Cave East"
 	icon_state = "erisgreen"
+	dynamic_lighting = TRUE
+	is_forest = TRUE
 
 /area/nadezhda/outside/fnest
 	name = "Fennec Nest"
 	icon_state = "erisgreen"
+	dynamic_lighting = TRUE
+	is_forest = TRUE
 
 /area/nadezhda/outside/pond
 	name = "Pond"
 	icon_state = "erisgreen"
 	forced_ambience = list('sound/ambience/forestamb1.ogg', 'sound/ambience/forestamb2.ogg', 'sound/ambience/forestamb3.ogg', 'sound/ambience/forestamb5.ogg', 'sound/ambience/forestamb6.ogg')
+	is_forest = TRUE
 
 /area/nadezhda/outside/bcave
 	name = "Tengolo Cave West"
 	icon_state = "erisgreen"
 	dynamic_lighting = TRUE
+	is_forest = TRUE
 
 /area/nadezhda/outside/scave
 	name = "Spider Cave"
 	icon_state = "erisgreen"
+	is_forest = TRUE
+
+// Forests
 
 /area/nadezhda/outside/forest
 	name = "Forest"
@@ -315,55 +324,66 @@
 	is_maintenance = TRUE
 	sound_env = FOREST
 	forced_ambience = list('sound/ambience/forestamb1.ogg', 'sound/ambience/forestamb2.ogg', 'sound/ambience/forestamb3.ogg', 'sound/ambience/forestamb5.ogg', 'sound/ambience/forestamb6.ogg')
+	is_forest = TRUE
 
 /area/nadezhda/outside/forest/beast_cave_light
 	name = "Swamp Caves"
 	icon_state = "forest"
+	is_forest = TRUE
 
 /area/nadezhda/outside/forest/beast_cave_dark
 	name = "Swamp Caves"
 	icon_state = "erisblue"
 	dynamic_lighting = TRUE
+	is_forest = TRUE
 
 /area/nadezhda/outside/forest/swamp_hut
 	name = "Swamp Hut"
 	icon_state = "erisblue"
 	dynamic_lighting = TRUE
 	requires_power = FALSE
+	is_forest = TRUE
 
 /area/nadezhda/outside/forest/plains_farm
 	name = "Desolate Farmstead"
 	icon_state = "erisblue"
 	requires_power = FALSE
+	is_forest = TRUE
 
 /area/nadezhda/outside/forest/river_forest_light
 	name = "Hunting Plains"
 	icon_state = "forest"
+	is_forest = TRUE
 
 /area/nadezhda/outside/forest/river_forest_lake
 	name = "Hunting Plains River"
 	icon_state = "hammerblue"
+	is_forest = TRUE
 
 /area/nadezhda/outside/forest/river_forest_cabin
 	name = "Hunting Plains Cabin"
 	icon_state = "erisgreen"
 	requires_power = FALSE
 	dynamic_lighting = TRUE
+	is_forest = TRUE
 
 /area/nadezhda/outside/forest/river_forest_dark
 	name = "Hunting Plains Caves"
 	icon_state = "erisblue"
 	dynamic_lighting = TRUE
+	is_forest = TRUE
 
 /area/nadezhda/outside/forest/river_forest_underground
 	name = "Hunting plains underground caves"
 	icon_state = "erisblue"
 	dynamic_lighting = TRUE
+	is_forest = TRUE
 
 /area/nadezhda/outside/forest/hunting_lodge
 	name = "Hunting Lodge"
 	icon_state = "forest"
 	is_dungeon_lootable = FALSE
+	is_forest = TRUE
 
 /area/nadezhda/outside/forest/hunting_lodge_dark
 	name = "Hunting Lodge"
@@ -382,18 +402,21 @@
 	icon_state = "erisblue"
 	sound_env = MOUNTAINS
 	forced_ambience = list('sound/ambience/lakeamb1.ogg', 'sound/ambience/lakeamb2.ogg', 'sound/ambience/lakeamb3.ogg')
+	is_forest = TRUE
 
 /area/nadezhda/outside/meadow
 	name = "Deep Forest"
 	icon_state = "meadow"
 	sound_env = MOUNTAINS
 	forced_ambience = list('sound/ambience/meadowamb1.ogg', 'sound/ambience/meadowamb2.ogg', 'sound/ambience/meadowamb3.ogg', 'sound/ambience/meadowamb4.ogg')
+	area_light_color = COLOR_LIGHTING_ORANGE_BRIGHT
 
 /area/nadezhda/outside/inside_colony
 	name = "Colony Meadow"
 	icon_state = "meadow"
 	sound_env = MOUNTAINS
 	forced_ambience = list('sound/ambience/meadowamb1.ogg', 'sound/ambience/meadowamb2.ogg', 'sound/ambience/meadowamb3.ogg', 'sound/ambience/meadowamb4.ogg')
+	area_light_color = COLOR_LIGHTING_ORANGE_BRIGHT
 
 
 /area/nadezhda/outside/mountainsolars
